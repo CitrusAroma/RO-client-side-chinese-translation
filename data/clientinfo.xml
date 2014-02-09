@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="gb2312" ?>
+
+<clientinfo>
+
+	<servicetype>china</servicetype>
+	<servertype>primary</servertype>
+	<extendedslot>2</extendedslot>
+	<connection>
+		<display>库库仙境</display>
+		<desc>库库仙境</desc>
+		<balloon>库库仙境</balloon>
+		<address>192.168.1.199</address>
+		<port>6900</port>
+		<version>45</version>
+		<langtype>3</langtype>
+		<aid>
+		<admin></admin>
+		</aid>
+		<registrationweb>http://127.0.0.1/</registrationweb>
+	</connection>
+	</clientinfo>

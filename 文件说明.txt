@@ -1,0 +1,45 @@
+Game root
+	|--RagnarokReplay.exe --用来播放游戏中录制的录像(存放在Replay目录中).运行报错,可将游戏更名为Ragnarok_RE.exe运行
+	|--System
+	|		|--itemInfo.lub  --游戏中所有物品的名称,描述,资源名(包含鉴定和未鉴定),可以自行添加
+	|		|--LuaFiles514
+	|				|--MsgString.lub  --Setup.exe文件中鼠标提示信息的文本
+	|				|--OptionInfo.lub  --游戏默认设置文件
+	|--data
+			|--ba_frostjoke.txt  --诗人技能[冷笑话]随机文本
+			|--dc_scream.txt   --舞娘技能[尖叫]随机文本
+			|--cardprefixnametable.txt  --卡片插入武器插槽后,显示的名称前缀
+			|--clientinfo.xml  --客户端登陆信息,定义服务器地址,数据包版本,GM的角色id
+			|--GuildTip.txt  --公会小贴士显示信息
+			|--mapnametable.txt  --地图名称
+			|--pettalktable.xml  --宠物说话的文本内容
+			|--monstertalktable.xml  --战斗时怪物说话的文本内容 不知是否读取
+			|--msgstringtable.txt  --客户端使用的所有文本信息
+			|--questid2display.txt  --任务系统文本
+			|--resnametable.txt  --地图资源文件定义
+			|--tipofday.txt  --今天小秘诀显示文本,TipofTheDay.txt文件已不读取
+			|--etcinfo.txt  --可定义地图烟火/樱花/下雪特效,也能定义loading画面
+			|--licence.txt  --授权许可文件
+			|--manner.txt  --屏蔽词语清单
+			|--luafiles514
+					|--lua files
+							|--msgstring_kr.lub  --游戏快捷键设置窗口,游戏常用指令,地图名称文本
+							|--hotkey.lub  --游戏快捷键默认定义及设置
+							|--datainfo
+							|		|--helpmsgstr.lub  --游戏中输入/help指令显示的文本
+							|		|--accessoryid.lub  --饰品编号
+							|		|--accname.lub  --饰品资源名
+							|		|--accname_eng.lub  --饰品英文资源名
+							|		|--npcidentity.lub  --NPC编号
+							|		|--pcjobnamegender.lub  --职业名称
+							|--skillinfoz
+							|		|--jobinheritlist.lub  --职业编号
+							|		|--skilldescript.lub  --技能描述
+							|		|--skillid.lub  --技能编号
+							|		|--skillinfolist.lub  --技能名称,最大等级,依赖技能,攻击范围
+							|		|--skilltreeview.lub  --技能依赖树
+							|--stateicon
+									|--efstids.lub  --状态图标编号
+									|--stateiconimginfo.lub  --状态图标对应资源名
+									|--stateiconinfo.lub  --状态图标描述,游戏中使用/stateinfo指令开启
+									

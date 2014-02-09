@@ -1,0 +1,7 @@
+//加载画面,数字为10以下的所有加载画面随机读取
+loadingscreen#
+10#
+//指令#地图名#效果
+//下雨:rain|下雪:snow|云雾:clouds|起雾:fog|烟火:pokjuk|樱花:sakura
+weather#prontera.rsw#snow#
+//file end
