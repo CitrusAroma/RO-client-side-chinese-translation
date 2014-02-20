@@ -25,7 +25,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SM_SWORD, 1},
+			{SKID.SM_SWORD, 1}
 		}
 	},
 
@@ -64,7 +64,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SM_BASH, 5},
+			{SKID.SM_BASH, 5}
 		}
 	},
 
@@ -76,7 +76,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SM_PROVOKE, 5},
+			{SKID.SM_PROVOKE, 5}
 		}
 	},
 
@@ -116,7 +116,13 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.MG_NAPALMBEAT, 7},
-			{SKID.MG_SOULSTRIKE, 5},
+			{SKID.MG_SOULSTRIKE, 5}
+		},
+		NeedSkillList = {
+			[JOBID.JT_PRIEST] = {
+				{SKID.PR_SANCTUARY, 3},
+				{SKID.PR_ASPERSIO, 4}
+			}
 		}
 	},
 
@@ -128,7 +134,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.MG_NAPALMBEAT, 4},
+			{SKID.MG_NAPALMBEAT, 4}
 		}
 	},
 
@@ -149,7 +155,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.MG_COLDBOLT, 5},
+			{SKID.MG_COLDBOLT, 5}
 		}
 	},
 
@@ -170,7 +176,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.MG_FIREBOLT, 4},
+			{SKID.MG_FIREBOLT, 4}
 		}
 	},
 
@@ -183,7 +189,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.MG_SIGHT, 1},
-			{SKID.MG_FIREBALL, 5},
+			{SKID.MG_FIREBALL, 5}
 		}
 	},
 
@@ -213,7 +219,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.MG_LIGHTNINGBOLT, 4},
+			{SKID.MG_LIGHTNINGBOLT, 4}
 		}
 	},
 
@@ -226,8 +232,8 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		NeedSkillList = {
 			[JOBID.JT_CRUSADER] = {
-				{SKID.AL_CURE, 1},
-			},
+				{SKID.AL_CURE, 1}
+			}
 		}
 	},
 
@@ -239,7 +245,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AL_DP, 3},
+			{SKID.AL_DP, 3}
 		}
 	},
 
@@ -260,7 +266,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9},
 		_NeedSkillList = {
-			{SKID.AL_WARP, 4},
+			{SKID.AL_WARP, 4}
 		}
 	},
 
@@ -272,7 +278,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1},
 		_NeedSkillList = {
-			{SKID.AL_RUWACH, 1},
+			{SKID.AL_RUWACH, 1}
 		}
 	},
 
@@ -284,7 +290,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.AL_TELEPORT, 2},
+			{SKID.AL_TELEPORT, 2}
 		}
 	},
 
@@ -298,8 +304,8 @@ SKILL_INFO_LIST = {
 		NeedSkillList = {
 			[JOBID.JT_CRUSADER] = {
 				{SKID.CR_TRUST, 10},
-				{SKID.AL_DEMONBANE, 5},
-			},
+				{SKID.AL_DEMONBANE, 5}
+			}
 		}
 	},
 
@@ -311,7 +317,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.AL_HEAL, 3},
+			{SKID.AL_HEAL, 3}
 		}
 	},
 
@@ -323,7 +329,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.AL_INCAGI, 1},
+			{SKID.AL_INCAGI, 1}
 		}
 	},
 
@@ -344,7 +350,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AL_DEMONBANE, 3},
+			{SKID.AL_DEMONBANE, 3}
 		}
 	},
 
@@ -356,7 +362,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AL_DP, 3},
+			{SKID.AL_DP, 3}
 		}
 	},
 
@@ -368,7 +374,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.AL_DP, 5},
+			{SKID.AL_DP, 5}
 		}
 	},
 
@@ -380,7 +386,12 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9},
 		_NeedSkillList = {
-			{SKID.AL_HEAL, 2},
+			{SKID.AL_HEAL, 2}
+		},
+		NeedSkillList = {
+			[JOBID.JT_CRUSADER] = {
+				{SKID.CR_TRUST, 5}
+			}
 		}
 	},
 
@@ -401,7 +412,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.MC_INCCARRY, 3},
+			{SKID.MC_INCCARRY, 3}
 		}
 	},
 
@@ -413,7 +424,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.MC_DISCOUNT, 3},
+			{SKID.MC_DISCOUNT, 3}
 		}
 	},
 
@@ -425,7 +436,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.MC_INCCARRY, 5},
+			{SKID.MC_INCCARRY, 5}
 		}
 	},
 
@@ -446,7 +457,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.MC_PUSHCART, 3},
+			{SKID.MC_PUSHCART, 3}
 		}
 	},
 
@@ -476,7 +487,11 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AC_OWL, 3},
+			{SKID.AC_OWL, 3}
+		},
+		NeedSkillList = {
+			[JOBID.JT_ROGUE] = {
+			}
 		}
 	},
 
@@ -488,7 +503,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AC_VULTURE, 1},
+			{SKID.AC_VULTURE, 1}
 		}
 	},
 
@@ -501,8 +516,8 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		NeedSkillList = {
 			[JOBID.JT_ROGUE] = {
-				{SKID.AC_VULTURE, 10},
-			},
+				{SKID.AC_VULTURE, 10}
+			}
 		}
 	},
 
@@ -514,7 +529,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.AC_DOUBLE, 5},
+			{SKID.AC_DOUBLE, 5}
 		}
 	},
 
@@ -553,7 +568,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.TF_STEAL, 5},
+			{SKID.TF_STEAL, 5}
 		}
 	},
 
@@ -574,7 +589,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9},
 		_NeedSkillList = {
-			{SKID.TF_POISON, 3},
+			{SKID.TF_POISON, 3}
 		}
 	},
 
@@ -587,7 +602,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.MG_SRECOVERY, 4},
-			{SKID.PR_STRECOVERY, 1},
+			{SKID.PR_STRECOVERY, 1}
 		}
 	},
 
@@ -608,7 +623,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {2, 2, 2, 2, 2, 2, 2, 2, 2, 2},
 		_NeedSkillList = {
-			{SKID.KN_SPEARMASTERY, 1},
+			{SKID.KN_SPEARMASTERY, 1}
 		}
 	},
 
@@ -621,7 +636,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {2, 2, 2, 2, 2, 2, 2, 2, 2, 2},
 		_NeedSkillList = {
 			{SKID.KN_RIDING, 1},
-			{SKID.KN_SPEARSTAB, 3},
+			{SKID.KN_SPEARSTAB, 3}
 		}
 	},
 
@@ -633,7 +648,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {4, 4, 4, 4, 4, 4, 4, 4, 4, 4},
 		_NeedSkillList = {
-			{SKID.KN_PIERCE, 5},
+			{SKID.KN_PIERCE, 5}
 		}
 	},
 
@@ -645,7 +660,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {3, 5, 7, 9, 11},
 		_NeedSkillList = {
-			{SKID.KN_PIERCE, 3},
+			{SKID.KN_PIERCE, 3}
 		}
 	},
 
@@ -657,7 +672,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SM_TWOHAND, 1},
+			{SKID.SM_TWOHAND, 1}
 		}
 	},
 
@@ -669,7 +684,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SM_TWOHAND, 1},
+			{SKID.SM_TWOHAND, 1}
 		}
 	},
 
@@ -685,7 +700,12 @@ SKILL_INFO_LIST = {
 			{SKID.SM_MAGNUM, 3},
 			{SKID.SM_TWOHAND, 5},
 			{SKID.KN_TWOHANDQUICKEN, 10},
-			{SKID.KN_AUTOCOUNTER, 5},
+			{SKID.KN_AUTOCOUNTER, 5}
+		},
+		NeedSkillList = {
+			[JOBID.JT_SUPERNOVICE2] = {
+				{SKID.KN_AUTOCOUNTER, 5}
+			}
 		}
 	},
 
@@ -697,7 +717,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.SM_ENDURE, 1},
+			{SKID.SM_ENDURE, 1}
 		}
 	},
 
@@ -709,7 +729,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.KN_RIDING, 1},
+			{SKID.KN_RIDING, 1}
 		}
 	},
 
@@ -739,7 +759,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9},
 		_NeedSkillList = {
-			{SKID.PR_IMPOSITIO, 2},
+			{SKID.PR_IMPOSITIO, 2}
 		}
 	},
 
@@ -752,7 +772,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.AL_HOLYWATER, 1},
-			{SKID.PR_IMPOSITIO, 3},
+			{SKID.PR_IMPOSITIO, 3}
 		}
 	},
 
@@ -765,7 +785,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.PR_ASPERSIO, 5},
-			{SKID.PR_GLORIA, 3},
+			{SKID.PR_GLORIA, 3}
 		}
 	},
 
@@ -777,7 +797,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.AL_HEAL, 1},
+			{SKID.AL_HEAL, 1}
 		}
 	},
 
@@ -807,7 +827,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.AL_ANGELUS, 2},
+			{SKID.AL_ANGELUS, 2}
 		}
 	},
 
@@ -829,7 +849,12 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.PR_KYRIE, 4},
-			{SKID.PR_MAGNIFICAT, 3},
+			{SKID.PR_MAGNIFICAT, 3}
+		},
+		NeedSkillList = {
+			[JOBID.JT_SUPERNOVICE2] = {
+				{SKID.PR_SANCTUARY, 7}
+			}
 		}
 	},
 
@@ -841,7 +866,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {5, 5, 5, 5, 5, 5, 5, 5, 5, 5},
 		_NeedSkillList = {
-			{SKID.AL_RUWACH, 1},
+			{SKID.AL_RUWACH, 1}
 		}
 	},
 
@@ -854,7 +879,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {5, 5, 5, 5, 5, 5, 5, 5, 5, 5},
 		_NeedSkillList = {
 			{SKID.ALL_RESURRECTION, 1},
-			{SKID.PR_LEXDIVINA, 3},
+			{SKID.PR_LEXDIVINA, 3}
 		}
 	},
 
@@ -866,7 +891,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9},
 		_NeedSkillList = {
-			{SKID.PR_LEXDIVINA, 5},
+			{SKID.PR_LEXDIVINA, 5}
 		}
 	},
 
@@ -880,7 +905,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.MG_SAFETYWALL, 1},
 			{SKID.PR_LEXAETERNA, 1},
-			{SKID.PR_TURNUNDEAD, 3},
+			{SKID.PR_TURNUNDEAD, 3}
 		}
 	},
 
@@ -892,7 +917,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.MG_FIREWALL, 1},
+			{SKID.MG_FIREWALL, 1}
 		}
 	},
 
@@ -905,7 +930,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.MG_SIGHT, 1},
-			{SKID.MG_LIGHTNINGBOLT, 1},
+			{SKID.MG_LIGHTNINGBOLT, 1}
 		}
 	},
 
@@ -927,7 +952,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.MG_THUNDERSTORM, 1},
-			{SKID.WZ_SIGHTRASHER, 2},
+			{SKID.WZ_SIGHTRASHER, 2}
 		}
 	},
 
@@ -940,7 +965,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.MG_NAPALMBEAT, 1},
-			{SKID.MG_LIGHTNINGBOLT, 1},
+			{SKID.MG_LIGHTNINGBOLT, 1}
 		}
 	},
 
@@ -953,7 +978,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.MG_THUNDERSTORM, 1},
-			{SKID.WZ_JUPITEL, 5},
+			{SKID.WZ_JUPITEL, 5}
 		}
 	},
 
@@ -966,7 +991,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.MG_COLDBOLT, 1},
-			{SKID.MG_LIGHTNINGBOLT, 1},
+			{SKID.MG_LIGHTNINGBOLT, 1}
 		}
 	},
 
@@ -979,7 +1004,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.MG_STONECURSE, 1},
-			{SKID.MG_FROSTDIVER, 1},
+			{SKID.MG_FROSTDIVER, 1}
 		}
 	},
 
@@ -991,7 +1016,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.WZ_ICEWALL, 1},
+			{SKID.WZ_ICEWALL, 1}
 		}
 	},
 
@@ -1004,7 +1029,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.MG_FROSTDIVER, 1},
-			{SKID.WZ_JUPITEL, 3},
+			{SKID.WZ_JUPITEL, 3}
 		}
 	},
 
@@ -1016,7 +1041,12 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.MG_STONECURSE, 1},
+			{SKID.MG_STONECURSE, 1}
+		},
+		NeedSkillList = {
+			[JOBID.JT_SAGE] = {
+				{SKID.SA_SEISMICWEAPON, 1}
+			}
 		}
 	},
 
@@ -1028,7 +1058,12 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.WZ_EARTHSPIKE, 3},
+			{SKID.WZ_EARTHSPIKE, 3}
+		},
+		NeedSkillList = {
+			[JOBID.JT_SAGE] = {
+				{SKID.WZ_EARTHSPIKE, 1}
+			}
 		}
 	},
 
@@ -1040,7 +1075,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.WZ_HEAVENDRIVE, 1},
+			{SKID.WZ_HEAVENDRIVE, 1}
 		}
 	},
 
@@ -1070,7 +1105,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BS_IRON, 1},
+			{SKID.BS_IRON, 1}
 		}
 	},
 
@@ -1082,7 +1117,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BS_IRON, 1},
+			{SKID.BS_IRON, 1}
 		}
 	},
 
@@ -1094,7 +1129,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BS_ENCHANTEDSTONE, 1},
+			{SKID.BS_ENCHANTEDSTONE, 1}
 		}
 	},
 
@@ -1115,7 +1150,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BS_DAGGER, 1},
+			{SKID.BS_DAGGER, 1}
 		}
 	},
 
@@ -1127,7 +1162,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BS_SWORD, 1},
+			{SKID.BS_SWORD, 1}
 		}
 	},
 
@@ -1139,7 +1174,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BS_SWORD, 2},
+			{SKID.BS_SWORD, 2}
 		}
 	},
 
@@ -1151,7 +1186,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BS_KNUCKLE, 1},
+			{SKID.BS_KNUCKLE, 1}
 		}
 	},
 
@@ -1163,7 +1198,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BS_DAGGER, 1},
+			{SKID.BS_DAGGER, 1}
 		}
 	},
 
@@ -1175,7 +1210,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BS_DAGGER, 2},
+			{SKID.BS_DAGGER, 2}
 		}
 	},
 
@@ -1197,7 +1232,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1},
 		_NeedSkillList = {
 			{SKID.BS_HILTBINDING, 1},
-			{SKID.BS_STEEL, 1},
+			{SKID.BS_STEEL, 1}
 		}
 	},
 
@@ -1209,7 +1244,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BS_HILTBINDING, 1},
+			{SKID.BS_HILTBINDING, 1}
 		}
 	},
 
@@ -1221,7 +1256,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {2},
 		_NeedSkillList = {
-			{SKID.BS_WEAPONRESEARCH, 1},
+			{SKID.BS_WEAPONRESEARCH, 1}
 		}
 	},
 
@@ -1251,7 +1286,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BS_HAMMERFALL, 2},
+			{SKID.BS_HAMMERFALL, 2}
 		}
 	},
 
@@ -1264,7 +1299,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.BS_WEAPONRESEARCH, 2},
-			{SKID.BS_ADRENALINE, 2},
+			{SKID.BS_ADRENALINE, 2}
 		}
 	},
 
@@ -1276,7 +1311,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BS_ADRENALINE, 3},
+			{SKID.BS_ADRENALINE, 3}
 		}
 	},
 
@@ -1289,7 +1324,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.BS_WEAPONPERFECT, 3},
-			{SKID.BS_OVERTHRUST, 2},
+			{SKID.BS_OVERTHRUST, 2}
 		}
 	},
 
@@ -1319,7 +1354,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {3, 3, 3, 3, 3},
 		_NeedSkillList = {
-			{SKID.HT_SKIDTRAP, 1},
+			{SKID.HT_SKIDTRAP, 1}
 		}
 	},
 
@@ -1331,7 +1366,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {3, 3, 3, 3, 3},
 		_NeedSkillList = {
-			{SKID.HT_ANKLESNARE, 1},
+			{SKID.HT_ANKLESNARE, 1}
 		}
 	},
 
@@ -1343,7 +1378,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {3, 3, 3, 3, 3},
 		_NeedSkillList = {
-			{SKID.HT_FLASHER, 1},
+			{SKID.HT_FLASHER, 1}
 		}
 	},
 
@@ -1355,7 +1390,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {3, 3, 3, 3, 3},
 		_NeedSkillList = {
-			{SKID.HT_SKIDTRAP, 1},
+			{SKID.HT_SKIDTRAP, 1}
 		}
 	},
 
@@ -1367,7 +1402,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {3, 3, 3, 3, 3},
 		_NeedSkillList = {
-			{SKID.HT_FLASHER, 1},
+			{SKID.HT_FLASHER, 1}
 		}
 	},
 
@@ -1381,7 +1416,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.HT_LANDMINE, 1},
 			{SKID.HT_SANDMAN, 1},
-			{SKID.HT_FREEZINGTRAP, 1},
+			{SKID.HT_FREEZINGTRAP, 1}
 		}
 	},
 
@@ -1394,7 +1429,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {3, 3, 3, 3, 3},
 		_NeedSkillList = {
 			{SKID.HT_SHOCKWAVE, 1},
-			{SKID.HT_BLASTMINE, 1},
+			{SKID.HT_BLASTMINE, 1}
 		}
 	},
 
@@ -1406,7 +1441,12 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {2},
 		_NeedSkillList = {
-			{SKID.HT_LANDMINE, 1},
+			{SKID.HT_LANDMINE, 1}
+		},
+		NeedSkillList = {
+			[JOBID.JT_ROGUE] = {
+				{SKID.AC_DOUBLE, 5}
+			}
 		}
 	},
 
@@ -1419,7 +1459,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {3},
 		_NeedSkillList = {
 			{SKID.HT_REMOVETRAP, 1},
-			{SKID.HT_SHOCKWAVE, 1},
+			{SKID.HT_SHOCKWAVE, 1}
 		}
 	},
 
@@ -1440,7 +1480,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.HT_BEASTBANE, 1},
+			{SKID.HT_BEASTBANE, 1}
 		}
 	},
 
@@ -1452,7 +1492,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.HT_BLITZBEAT, 5},
+			{SKID.HT_BLITZBEAT, 5}
 		}
 	},
 
@@ -1464,7 +1504,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {5, 5, 5, 5, 5},
 		_NeedSkillList = {
-			{SKID.HT_FALCON, 1},
+			{SKID.HT_FALCON, 1}
 		}
 	},
 
@@ -1477,7 +1517,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {3, 5, 7, 9},
 		_NeedSkillList = {
 			{SKID.AC_CONCENTRATION, 1},
-			{SKID.HT_FALCON, 1},
+			{SKID.HT_FALCON, 1}
 		}
 	},
 
@@ -1490,7 +1530,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {4, 5, 6, 7, 8},
 		_NeedSkillList = {
 			{SKID.HT_FALCON},
-			{SKID.HT_REMOVETRAP, 1},
+			{SKID.HT_REMOVETRAP, 1}
 		}
 	},
 
@@ -1511,7 +1551,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AS_RIGHT, 2},
+			{SKID.AS_RIGHT, 2}
 		}
 	},
 
@@ -1532,7 +1572,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.TF_HIDING, 2},
+			{SKID.TF_HIDING, 2}
 		}
 	},
 
@@ -1544,7 +1584,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AS_KATAR, 4},
+			{SKID.AS_KATAR, 4}
 		}
 	},
 
@@ -1557,7 +1597,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {2, 3, 4, 5, 6},
 		_NeedSkillList = {
 			{SKID.AS_CLOAKING, 2},
-			{SKID.AS_SONICBLOW, 5},
+			{SKID.AS_SONICBLOW, 5}
 		}
 	},
 
@@ -1569,7 +1609,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.TF_POISON, 1},
+			{SKID.TF_POISON, 1}
 		}
 	},
 
@@ -1581,7 +1621,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AS_ENCHANTPOISON, 3},
+			{SKID.AS_ENCHANTPOISON, 3}
 		}
 	},
 
@@ -1593,7 +1633,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {2, 2, 2, 2, 2, 2, 2, 2, 2, 2},
 		_NeedSkillList = {
-			{SKID.AS_ENCHANTPOISON, 5},
+			{SKID.AS_ENCHANTPOISON, 5}
 		}
 	},
 
@@ -1606,7 +1646,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.AS_VENOMDUST, 5},
-			{SKID.AS_POISONREACT, 5},
+			{SKID.AS_POISONREACT, 5}
 		}
 	},
 
@@ -1762,7 +1802,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.TF_STEAL, 1},
+			{SKID.TF_STEAL, 1}
 		}
 	},
 
@@ -1774,7 +1814,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RG_SNATCHER, 4},
+			{SKID.RG_SNATCHER, 4}
 		}
 	},
 
@@ -1786,7 +1826,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RG_STEALCOIN, 4},
+			{SKID.RG_STEALCOIN, 4}
 		}
 	},
 
@@ -1798,7 +1838,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.TF_HIDING, 1},
+			{SKID.TF_HIDING, 1}
 		}
 	},
 
@@ -1811,7 +1851,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.RG_TUNNELDRIVE, 2},
-			{SKID.RG_BACKSTAP, 2},
+			{SKID.RG_BACKSTAP, 2}
 		}
 	},
 
@@ -1823,7 +1863,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RG_STRIPARMOR, 5},
+			{SKID.RG_STRIPARMOR, 5}
 		}
 	},
 
@@ -1835,7 +1875,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RG_STRIPHELM, 5},
+			{SKID.RG_STRIPHELM, 5}
 		}
 	},
 
@@ -1847,7 +1887,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RG_STRIPSHIELD, 5},
+			{SKID.RG_STRIPSHIELD, 5}
 		}
 	},
 
@@ -1859,7 +1899,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RG_STEALCOIN, 2},
+			{SKID.RG_STEALCOIN, 2}
 		}
 	},
 
@@ -1872,7 +1912,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.RG_BACKSTAP, 4},
-			{SKID.RG_RAID, 5},
+			{SKID.RG_RAID, 5}
 		}
 	},
 
@@ -1884,7 +1924,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.RG_FLAGGRAFFITI, 5},
+			{SKID.RG_FLAGGRAFFITI, 5}
 		}
 	},
 
@@ -1896,7 +1936,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RG_CLEANER, 1},
+			{SKID.RG_CLEANER, 1}
 		}
 	},
 
@@ -1908,7 +1948,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.RG_GANGSTER, 1},
+			{SKID.RG_GANGSTER, 1}
 		}
 	},
 
@@ -1920,7 +1960,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.RG_STRIPSHIELD, 3},
+			{SKID.RG_STRIPSHIELD, 3}
 		}
 	},
 
@@ -1932,7 +1972,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RG_GANGSTER, 1},
+			{SKID.RG_GANGSTER, 1}
 		}
 	},
 
@@ -1944,7 +1984,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RG_INTIMIDATE, 5},
+			{SKID.RG_INTIMIDATE, 5}
 		}
 	},
 
@@ -1974,7 +2014,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AM_LEARNINGPOTION, 5},
+			{SKID.AM_LEARNINGPOTION, 5}
 		}
 	},
 
@@ -1986,7 +2026,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.AM_PHARMACY, 4},
+			{SKID.AM_PHARMACY, 4}
 		}
 	},
 
@@ -1998,7 +2038,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.AM_PHARMACY, 5},
+			{SKID.AM_PHARMACY, 5}
 		}
 	},
 
@@ -2010,7 +2050,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.AM_PHARMACY, 3},
+			{SKID.AM_PHARMACY, 3}
 		}
 	},
 
@@ -2022,7 +2062,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {4, 4, 4, 4, 4},
 		_NeedSkillList = {
-			{SKID.AM_PHARMACY, 6},
+			{SKID.AM_PHARMACY, 6}
 		}
 	},
 
@@ -2034,7 +2074,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AM_PHARMACY, 2},
+			{SKID.AM_PHARMACY, 2}
 		}
 	},
 
@@ -2046,7 +2086,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AM_CP_ARMOR, 3},
+			{SKID.AM_CP_ARMOR, 3}
 		}
 	},
 
@@ -2058,7 +2098,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AM_CP_HELM, 3},
+			{SKID.AM_CP_HELM, 3}
 		}
 	},
 
@@ -2070,7 +2110,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AM_CP_SHIELD, 3},
+			{SKID.AM_CP_SHIELD, 3}
 		}
 	},
 
@@ -2082,7 +2122,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AM_PHARMACY, 2},
+			{SKID.AM_PHARMACY, 2}
 		}
 	},
 
@@ -2139,7 +2179,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.AM_REST, 1},
+			{SKID.AM_REST, 1}
 		}
 	},
 
@@ -2151,7 +2191,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.AM_BIOETHICS, 1},
+			{SKID.AM_BIOETHICS, 1}
 		}
 	},
 
@@ -2181,7 +2221,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AM_CALLHOMUN, 1},
+			{SKID.AM_CALLHOMUN, 1}
 		}
 	},
 
@@ -2211,7 +2251,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {3, 3, 3, 3, 3},
 		_NeedSkillList = {
-			{SKID.CR_AUTOGUARD, 5},
+			{SKID.CR_AUTOGUARD, 5}
 		}
 	},
 
@@ -2223,7 +2263,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {3, 5, 7, 9, 11},
 		_NeedSkillList = {
-			{SKID.CR_SHIELDCHARGE, 3},
+			{SKID.CR_SHIELDCHARGE, 3}
 		}
 	},
 
@@ -2235,7 +2275,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.CR_SHIELDBOOMERANG, 3},
+			{SKID.CR_SHIELDBOOMERANG, 3}
 		}
 	},
 
@@ -2247,7 +2287,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {2, 2, 2, 2, 2, 2, 2, 2, 2, 2},
 		_NeedSkillList = {
-			{SKID.CR_TRUST, 7},
+			{SKID.CR_TRUST, 7}
 		}
 	},
 
@@ -2260,7 +2300,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.CR_TRUST, 10},
-			{SKID.CR_HOLYCROSS, 6},
+			{SKID.CR_HOLYCROSS, 6}
 		}
 	},
 
@@ -2273,7 +2313,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {7, 8, 9, 10, 11},
 		_NeedSkillList = {
 			{SKID.CR_GRANDCROSS, 4},
-			{SKID.CR_REFLECTSHIELD, 5},
+			{SKID.CR_REFLECTSHIELD, 5}
 		}
 	},
 
@@ -2286,7 +2326,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.AL_DP, 5},
-			{SKID.AL_HEAL, 5},
+			{SKID.AL_HEAL, 5}
 		}
 	},
 
@@ -2298,7 +2338,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.CR_SHIELDBOOMERANG, 1},
+			{SKID.CR_SHIELDBOOMERANG, 1}
 		}
 	},
 
@@ -2310,7 +2350,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.KN_SPEARMASTERY, 10},
+			{SKID.KN_SPEARMASTERY, 10}
 		}
 	},
 
@@ -2323,7 +2363,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.AL_DEMONBANE, 10},
-			{SKID.AL_DP, 10},
+			{SKID.AL_DP, 10}
 		}
 	},
 
@@ -2335,7 +2375,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.MO_BLADESTOP, 2},
+			{SKID.MO_BLADESTOP, 2}
 		}
 	},
 
@@ -2347,7 +2387,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.MO_IRONHAND, 2},
+			{SKID.MO_IRONHAND, 2}
 		}
 	},
 
@@ -2359,7 +2399,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9},
 		_NeedSkillList = {
-			{SKID.MO_CALLSPIRITS, 5},
+			{SKID.MO_CALLSPIRITS, 5}
 		}
 	},
 
@@ -2371,7 +2411,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.MO_DODGE, 5},
+			{SKID.MO_DODGE, 5}
 		}
 	},
 
@@ -2385,7 +2425,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.MO_SPIRITSRECOVERY, 2},
 			{SKID.MO_EXTREMITYFIST, 3},
-			{SKID.MO_STEELBODY, 3},
+			{SKID.MO_STEELBODY, 3}
 		}
 	},
 
@@ -2398,7 +2438,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.MO_IRONHAND, 5},
-			{SKID.MO_CALLSPIRITS, 5},
+			{SKID.MO_CALLSPIRITS, 5}
 		}
 	},
 
@@ -2410,7 +2450,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {2, 2, 2, 2, 2},
 		_NeedSkillList = {
-			{SKID.MO_CALLSPIRITS, 5},
+			{SKID.MO_CALLSPIRITS, 5}
 		}
 	},
 
@@ -2422,7 +2462,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.MO_INVESTIGATE, 3},
+			{SKID.MO_INVESTIGATE, 3}
 		}
 	},
 
@@ -2434,7 +2474,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.MO_COMBOFINISH, 3},
+			{SKID.MO_COMBOFINISH, 3}
 		}
 	},
 
@@ -2446,7 +2486,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.MO_DODGE, 5},
+			{SKID.MO_DODGE, 5}
 		}
 	},
 
@@ -2458,7 +2498,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.MO_ABSORBSPIRITS, 1},
+			{SKID.MO_ABSORBSPIRITS, 1}
 		}
 	},
 
@@ -2471,7 +2511,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {2, 2, 2, 2, 2},
 		_NeedSkillList = {
 			{SKID.MO_EXPLOSIONSPIRITS, 3},
-			{SKID.MO_FINGEROFFENSIVE, 3},
+			{SKID.MO_FINGEROFFENSIVE, 3}
 		}
 	},
 
@@ -2483,7 +2523,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {2, 2, 2, 2, 2},
 		_NeedSkillList = {
-			{SKID.MO_TRIPLEATTACK, 5},
+			{SKID.MO_TRIPLEATTACK, 5}
 		}
 	},
 
@@ -2495,7 +2535,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {2, 2, 2, 2, 2},
 		_NeedSkillList = {
-			{SKID.MO_CHAINCOMBO, 3},
+			{SKID.MO_CHAINCOMBO, 3}
 		}
 	},
 
@@ -2516,7 +2556,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SA_ADVANCEDBOOK, 2},
+			{SKID.SA_ADVANCEDBOOK, 2}
 		}
 	},
 
@@ -2528,7 +2568,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SA_ADVANCEDBOOK, 4},
+			{SKID.SA_ADVANCEDBOOK, 4}
 		}
 	},
 
@@ -2540,7 +2580,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SA_MAGICROD, 1},
+			{SKID.SA_MAGICROD, 1}
 		}
 	},
 
@@ -2552,7 +2592,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SA_CASTCANCEL, 1},
+			{SKID.SA_CASTCANCEL, 1}
 		}
 	},
 
@@ -2564,7 +2604,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SA_FREECAST, 4},
+			{SKID.SA_FREECAST, 4}
 		}
 	},
 
@@ -2577,7 +2617,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.MG_FIREBOLT, 1},
-			{SKID.SA_ADVANCEDBOOK, 5},
+			{SKID.SA_ADVANCEDBOOK, 5}
 		}
 	},
 
@@ -2590,7 +2630,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.MG_COLDBOLT, 1},
-			{SKID.SA_ADVANCEDBOOK, 5},
+			{SKID.SA_ADVANCEDBOOK, 5}
 		}
 	},
 
@@ -2603,7 +2643,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.MG_LIGHTNINGBOLT, 1},
-			{SKID.SA_ADVANCEDBOOK, 5},
+			{SKID.SA_ADVANCEDBOOK, 5}
 		}
 	},
 
@@ -2616,7 +2656,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.MG_STONECURSE, 1},
-			{SKID.SA_ADVANCEDBOOK, 5},
+			{SKID.SA_ADVANCEDBOOK, 5}
 		}
 	},
 
@@ -2628,7 +2668,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SA_ADVANCEDBOOK, 9},
+			{SKID.SA_ADVANCEDBOOK, 9}
 		}
 	},
 
@@ -2640,7 +2680,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {2, 2, 2, 2, 2},
 		_NeedSkillList = {
-			{SKID.SA_FLAMELAUNCHER, 2},
+			{SKID.SA_FLAMELAUNCHER, 2}
 		}
 	},
 
@@ -2652,7 +2692,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {2, 2, 2, 2, 2},
 		_NeedSkillList = {
-			{SKID.SA_FROSTWEAPON, 2},
+			{SKID.SA_FROSTWEAPON, 2}
 		}
 	},
 
@@ -2664,7 +2704,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {2, 2, 2, 2, 2},
 		_NeedSkillList = {
-			{SKID.SA_LIGHTNINGLOADER, 2},
+			{SKID.SA_LIGHTNINGLOADER, 2}
 		}
 	},
 
@@ -2678,7 +2718,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.SA_DELUGE, 3},
 			{SKID.SA_VIOLENTGALE, 3},
-			{SKID.SA_VOLCANO, 3},
+			{SKID.SA_VOLCANO, 3}
 		}
 	},
 
@@ -2690,7 +2730,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SA_SPELLBREAKER, 3},
+			{SKID.SA_SPELLBREAKER, 3}
 		}
 	},
 
@@ -2704,7 +2744,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.SA_AUTOSPELL, 5},
 			{SKID.SA_DISPELL, 1},
-			{SKID.SA_LANDPROTECTOR, 1},
+			{SKID.SA_LANDPROTECTOR, 1}
 		}
 	},
 
@@ -2842,7 +2882,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.BD_ADAPTATION, 1},
+			{SKID.BD_ADAPTATION, 1}
 		}
 	},
 
@@ -2855,11 +2895,11 @@ SKILL_INFO_LIST = {
 		AttackRange = {1},
 		NeedSkillList = {
 			[JOBID.JT_BARD] = {
-				{SKID.BA_WHISTLE, 10},
+				{SKID.BA_WHISTLE, 10}
 			},
 			[JOBID.JT_DANCER] = {
-				{SKID.DC_HUMMING, 10},
-			},
+				{SKID.DC_HUMMING, 10}
+			}
 		}
 	},
 
@@ -2871,7 +2911,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BD_SIEGFRIED, 3},
+			{SKID.BD_SIEGFRIED, 3}
 		}
 	},
 
@@ -2883,7 +2923,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.BD_ROKISWEIL, 1},
+			{SKID.BD_ROKISWEIL, 1}
 		}
 	},
 
@@ -2896,11 +2936,11 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		NeedSkillList = {
 			[JOBID.JT_BARD] = {
-				{SKID.BA_APPLEIDUN, 10},
+				{SKID.BA_APPLEIDUN, 10}
 			},
 			[JOBID.JT_DANCER] = {
-				{SKID.DC_SERVICEFORYOU, 10},
-			},
+				{SKID.DC_SERVICEFORYOU, 10}
+			}
 		}
 	},
 
@@ -2912,7 +2952,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BD_DRUMBATTLEFIELD, 3},
+			{SKID.BD_DRUMBATTLEFIELD, 3}
 		}
 	},
 
@@ -2925,11 +2965,11 @@ SKILL_INFO_LIST = {
 		AttackRange = {1},
 		NeedSkillList = {
 			[JOBID.JT_BARD] = {
-				{SKID.BA_ASSASSINCROSS, 10},
+				{SKID.BA_ASSASSINCROSS, 10}
 			},
 			[JOBID.JT_DANCER] = {
-				{SKID.DC_DONTFORGETME, 10},
-			},
+				{SKID.DC_DONTFORGETME, 10}
+			}
 		}
 	},
 
@@ -2941,7 +2981,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.BD_LULLABY, 1},
+			{SKID.BD_LULLABY, 1}
 		}
 	},
 
@@ -2954,11 +2994,11 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		NeedSkillList = {
 			[JOBID.JT_BARD] = {
-				{SKID.BA_POEMBRAGI, 10},
+				{SKID.BA_POEMBRAGI, 10}
 			},
 			[JOBID.JT_DANCER] = {
-				{SKID.DC_FORTUNEKISS, 10},
-			},
+				{SKID.DC_FORTUNEKISS, 10}
+			}
 		}
 	},
 
@@ -2988,7 +3028,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.BA_MUSICALLESSON, 3},
+			{SKID.BA_MUSICALLESSON, 3}
 		}
 	},
 
@@ -3001,7 +3041,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.BD_ADAPTATION, 1},
-			{SKID.BA_MUSICALLESSON, 1},
+			{SKID.BA_MUSICALLESSON, 1}
 		}
 	},
 
@@ -3013,7 +3053,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {},
 		_NeedSkillList = {
-			{SKID.BD_ENCORE, 1},
+			{SKID.BD_ENCORE, 1}
 		}
 	},
 
@@ -3025,7 +3065,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BA_DISSONANCE, 3},
+			{SKID.BA_DISSONANCE, 3}
 		}
 	},
 
@@ -3037,7 +3077,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BA_DISSONANCE, 3},
+			{SKID.BA_DISSONANCE, 3}
 		}
 	},
 
@@ -3049,7 +3089,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BA_DISSONANCE, 3},
+			{SKID.BA_DISSONANCE, 3}
 		}
 	},
 
@@ -3061,7 +3101,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BA_DISSONANCE, 3},
+			{SKID.BA_DISSONANCE, 3}
 		}
 	},
 
@@ -3082,7 +3122,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.DC_DANCINGLESSON, 3},
+			{SKID.DC_DANCINGLESSON, 3}
 		}
 	},
 
@@ -3095,7 +3135,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.BD_ADAPTATION, 1},
-			{SKID.DC_DANCINGLESSON, 1},
+			{SKID.DC_DANCINGLESSON, 1}
 		}
 	},
 
@@ -3107,7 +3147,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BD_ENCORE, 1},
+			{SKID.BD_ENCORE, 1}
 		}
 	},
 
@@ -3119,7 +3159,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.DC_UGLYDANCE, 3},
+			{SKID.DC_UGLYDANCE, 3}
 		}
 	},
 
@@ -3131,7 +3171,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.DC_UGLYDANCE, 3},
+			{SKID.DC_UGLYDANCE, 3}
 		}
 	},
 
@@ -3143,7 +3183,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.DC_UGLYDANCE, 3},
+			{SKID.DC_UGLYDANCE, 3}
 		}
 	},
 
@@ -3155,7 +3195,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.DC_UGLYDANCE, 3},
+			{SKID.DC_UGLYDANCE, 3}
 		}
 	},
 
@@ -3204,7 +3244,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.SM_MAGNUM, 5},
-			{SKID.SM_TWOHAND, 5},
+			{SKID.SM_TWOHAND, 5}
 		}
 	},
 
@@ -3218,7 +3258,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.SM_PROVOKE, 5},
 			{SKID.SM_TWOHAND, 10},
-			{SKID.KN_TWOHANDQUICKEN, 3},
+			{SKID.KN_TWOHANDQUICKEN, 3}
 		}
 	},
 
@@ -3232,7 +3272,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.SM_RECOVERY, 5},
 			{SKID.KN_SPEARMASTERY, 5},
-			{SKID.KN_RIDING, 1},
+			{SKID.KN_RIDING, 1}
 		}
 	},
 
@@ -3246,7 +3286,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.SM_PROVOKE, 5},
 			{SKID.SM_RECOVERY, 10},
-			{SKID.SM_ENDURE, 3},
+			{SKID.SM_ENDURE, 3}
 		}
 	},
 
@@ -3269,7 +3309,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.AL_ANGELUS, 1},
 			{SKID.MG_SRECOVERY, 3},
-			{SKID.PR_IMPOSITIO, 3},
+			{SKID.PR_IMPOSITIO, 3}
 		}
 	},
 
@@ -3283,7 +3323,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.PR_GLORIA, 2},
 			{SKID.MG_SRECOVERY, 1},
-			{SKID.PR_KYRIE, 3},
+			{SKID.PR_KYRIE, 3}
 		}
 	},
 
@@ -3297,7 +3337,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.MG_SRECOVERY, 5},
 			{SKID.PR_LEXDIVINA, 5},
-			{SKID.PR_ASPERSIO, 3},
+			{SKID.PR_ASPERSIO, 3}
 		}
 	},
 
@@ -3310,7 +3350,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.MG_SRECOVERY, 5},
-			{SKID.MG_SOULSTRIKE, 7},
+			{SKID.MG_SOULSTRIKE, 7}
 		}
 	},
 
@@ -3322,7 +3362,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9},
 		_NeedSkillList = {
-			{SKID.MG_SRECOVERY, 1},
+			{SKID.MG_SRECOVERY, 1}
 		}
 	},
 
@@ -3345,7 +3385,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.SM_ENDURE, 5},
 			{SKID.CR_TRUST, 5},
-			{SKID.CR_SHIELDCHARGE, 2},
+			{SKID.CR_SHIELDCHARGE, 2}
 		}
 	},
 
@@ -3358,7 +3398,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {2, 2, 2, 2, 2},
 		_NeedSkillList = {
 			{SKID.SM_ENDURE, 1},
-			{SKID.CR_DEVOTION, 3},
+			{SKID.CR_DEVOTION, 3}
 		}
 	},
 
@@ -3372,7 +3412,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.CR_TRUST, 8},
 			{SKID.AL_DP, 3},
-			{SKID.AL_DEMONBANE, 5},
+			{SKID.AL_DEMONBANE, 5}
 		}
 	},
 
@@ -3385,7 +3425,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {2, 2, 2, 2, 2},
 		_NeedSkillList = {
 			{SKID.MO_IRONHAND, 7},
-			{SKID.MO_CALLSPIRITS, 5},
+			{SKID.MO_CALLSPIRITS, 5}
 		}
 	},
 
@@ -3399,7 +3439,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.MO_IRONHAND, 5},
 			{SKID.MO_TRIPLEATTACK, 5},
-			{SKID.MO_COMBOFINISH, 3},
+			{SKID.MO_COMBOFINISH, 3}
 		}
 	},
 
@@ -3413,7 +3453,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.MO_IRONHAND, 5},
 			{SKID.MO_CALLSPIRITS, 5},
-			{SKID.CH_TIGERFIST, 2},
+			{SKID.CH_TIGERFIST, 2}
 		}
 	},
 
@@ -3426,7 +3466,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.MG_SRECOVERY, 1},
-			{SKID.SA_MAGICROD, 1},
+			{SKID.SA_MAGICROD, 1}
 		}
 	},
 
@@ -3439,7 +3479,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9},
 		_NeedSkillList = {
 			{SKID.SA_MAGICROD, 3},
-			{SKID.SA_SPELLBREAKER, 2},
+			{SKID.SA_SPELLBREAKER, 2}
 		}
 	},
 
@@ -3453,7 +3493,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.SA_CASTCANCEL, 5},
 			{SKID.SA_MAGICROD, 3},
-			{SKID.SA_DISPELL, 3},
+			{SKID.SA_DISPELL, 3}
 		}
 	},
 
@@ -3466,7 +3506,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.TF_DOUBLE, 5},
-			{SKID.AS_KATAR, 7},
+			{SKID.AS_KATAR, 7}
 		}
 	},
 
@@ -3478,7 +3518,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.ASC_CDP, 1},
+			{SKID.ASC_CDP, 1}
 		}
 	},
 
@@ -3493,7 +3533,7 @@ SKILL_INFO_LIST = {
 			{SKID.TF_DOUBLE, 5},
 			{SKID.TF_POISON, 5},
 			{SKID.AS_CLOAKING, 3},
-			{SKID.AS_ENCHANTPOISON, 6},
+			{SKID.AS_ENCHANTPOISON, 6}
 		}
 	},
 
@@ -3508,7 +3548,7 @@ SKILL_INFO_LIST = {
 			{SKID.AC_OWL, 10},
 			{SKID.AC_VULTURE, 10},
 			{SKID.AC_CONCENTRATION, 10},
-			{SKID.HT_FALCON, 1},
+			{SKID.HT_FALCON, 1}
 		}
 	},
 
@@ -3523,7 +3563,7 @@ SKILL_INFO_LIST = {
 			{SKID.AC_VULTURE, 5},
 			{SKID.HT_FALCON, 1},
 			{SKID.HT_BLITZBEAT, 5},
-			{SKID.HT_STEELCROW, 3},
+			{SKID.HT_STEELCROW, 3}
 		}
 	},
 
@@ -3536,7 +3576,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.AC_DOUBLE, 5},
-			{SKID.AC_CONCENTRATION, 10},
+			{SKID.AC_CONCENTRATION, 10}
 		}
 	},
 
@@ -3548,7 +3588,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AC_CONCENTRATION, 9},
+			{SKID.AC_CONCENTRATION, 9}
 		}
 	},
 
@@ -3563,7 +3603,7 @@ SKILL_INFO_LIST = {
 			{SKID.BS_SKINTEMPER, 3},
 			{SKID.BS_HILTBINDING, 1},
 			{SKID.BS_WEAPONRESEARCH, 5},
-			{SKID.BS_OVERTHRUST, 3},
+			{SKID.BS_OVERTHRUST, 3}
 		}
 	},
 
@@ -3596,7 +3636,7 @@ SKILL_INFO_LIST = {
 			{SKID.MC_PUSHCART, 5},
 			{SKID.BS_HILTBINDING, 1},
 			{SKID.MC_CARTREVOLUTION},
-			{SKID.MC_CHANGECART},
+			{SKID.MC_CHANGECART}
 		}
 	},
 
@@ -3618,7 +3658,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.TF_HIDING, 5},
-			{SKID.RG_TUNNELDRIVE, 3},
+			{SKID.RG_TUNNELDRIVE, 3}
 		}
 	},
 
@@ -3669,13 +3709,13 @@ SKILL_INFO_LIST = {
 			[JOBID.JT_BARD_H] = {
 				{SKID.AC_DOUBLE, 5},
 				{SKID.AC_SHOWER, 5},
-				{SKID.BA_MUSICALSTRIKE, 1},
+				{SKID.BA_MUSICALSTRIKE, 1}
 			},
 			[JOBID.JT_DANCER_H] = {
 				{SKID.AC_DOUBLE, 5},
 				{SKID.AC_SHOWER, 5},
-				{SKID.DC_THROWARROW, 1},
-			},
+				{SKID.DC_THROWARROW, 1}
+			}
 		}
 	},
 
@@ -3689,12 +3729,12 @@ SKILL_INFO_LIST = {
 		NeedSkillList = {
 			[JOBID.JT_BARD_H] = {
 				{SKID.AC_CONCENTRATION, 5},
-				{SKID.BA_MUSICALLESSON, 7},
+				{SKID.BA_MUSICALLESSON, 7}
 			},
 			[JOBID.JT_DANCER_H] = {
 				{SKID.AC_CONCENTRATION, 5},
-				{SKID.DC_DANCINGLESSON, 7},
-			},
+				{SKID.DC_DANCINGLESSON, 7}
+			}
 		}
 	},
 
@@ -3708,12 +3748,12 @@ SKILL_INFO_LIST = {
 		NeedSkillList = {
 			[JOBID.JT_BARD_H] = {
 				{SKID.AC_CONCENTRATION, 10},
-				{SKID.BA_MUSICALLESSON, 5},
+				{SKID.BA_MUSICALLESSON, 5}
 			},
 			[JOBID.JT_DANCER_H] = {
 				{SKID.AC_CONCENTRATION, 10},
-				{SKID.DC_DANCINGLESSON, 5},
-			},
+				{SKID.DC_DANCINGLESSON, 5}
+			}
 		}
 	},
 
@@ -3728,7 +3768,7 @@ SKILL_INFO_LIST = {
 			{SKID.KN_SPEARMASTERY, 5},
 			{SKID.KN_PIERCE, 5},
 			{SKID.KN_RIDING, 1},
-			{SKID.KN_SPEARSTAB, 5},
+			{SKID.KN_SPEARSTAB, 5}
 		}
 	},
 
@@ -3741,7 +3781,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {4, 4, 4, 4, 4},
 		_NeedSkillList = {
 			{SKID.KN_SPEARMASTERY, 9},
-			{SKID.KN_RIDING, 1},
+			{SKID.KN_RIDING, 1}
 		}
 	},
 
@@ -3754,7 +3794,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {4, 4, 4, 4, 4, 4, 4, 4, 4, 4},
 		_NeedSkillList = {
 			{SKID.KN_CAVALIERMASTERY, 3},
-			{SKID.LK_HEADCRUSH, 3},
+			{SKID.LK_HEADCRUSH, 3}
 		}
 	},
 
@@ -3766,7 +3806,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.MG_NAPALMBEAT, 5},
+			{SKID.MG_NAPALMBEAT, 5}
 		}
 	},
 
@@ -3778,7 +3818,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.MO_EXPLOSIONSPIRITS, 5},
+			{SKID.MO_EXPLOSIONSPIRITS, 5}
 		}
 	},
 
@@ -3791,7 +3831,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.MG_SRECOVERY, 3},
-			{SKID.PF_SOULBURN, 2},
+			{SKID.PF_SOULBURN, 2}
 		}
 	},
 
@@ -3805,7 +3845,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.SA_ADVANCEDBOOK, 5},
 			{SKID.SA_FREECAST, 5},
-			{SKID.SA_AUTOSPELL, 1},
+			{SKID.SA_AUTOSPELL, 1}
 		}
 	},
 
@@ -3818,7 +3858,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9},
 		_NeedSkillList = {
 			{SKID.SA_VIOLENTGALE, 2},
-			{SKID.SA_DELUGE, 2},
+			{SKID.SA_DELUGE, 2}
 		}
 	},
 
@@ -3830,7 +3870,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9},
 		_NeedSkillList = {
-			{SKID.SA_DRAGONOLOGY, 4},
+			{SKID.SA_DRAGONOLOGY, 4}
 		}
 	},
 
@@ -3845,7 +3885,7 @@ SKILL_INFO_LIST = {
 			{SKID.AS_KATAR, 5},
 			{SKID.AS_RIGHT, 3},
 			{SKID.AS_SONICBLOW, 5},
-			{SKID.ASC_BREAKER, 1},
+			{SKID.ASC_BREAKER, 1}
 		}
 	},
 
@@ -3859,7 +3899,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.TF_POISON, 10},
 			{SKID.TF_DETOXIFY, 1},
-			{SKID.AS_ENCHANTPOISON, 5},
+			{SKID.AS_ENCHANTPOISON, 5}
 		}
 	},
 
@@ -3907,7 +3947,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.TK_STORMKICK, 1},
+			{SKID.TK_STORMKICK, 1}
 		}
 	},
 
@@ -3928,7 +3968,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.TK_DOWNKICK, 1},
+			{SKID.TK_DOWNKICK, 1}
 		}
 	},
 
@@ -3949,7 +3989,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.TK_TURNKICK, 1},
+			{SKID.TK_TURNKICK, 1}
 		}
 	},
 
@@ -3970,7 +4010,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.TK_COUNTER, 1},
+			{SKID.TK_COUNTER, 1}
 		}
 	},
 
@@ -3991,7 +4031,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.TK_JUMPKICK, 7},
+			{SKID.TK_JUMPKICK, 7}
 		}
 	},
 
@@ -4041,7 +4081,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.TK_HPTIME, 5},
 			{SKID.TK_SPTIME, 5},
-			{SKID.TK_POWER, 5},
+			{SKID.TK_POWER, 5}
 		}
 	},
 
@@ -4071,7 +4111,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SG_FEEL, 1},
+			{SKID.SG_FEEL, 1}
 		}
 	},
 
@@ -4083,7 +4123,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SG_FEEL, 2},
+			{SKID.SG_FEEL, 2}
 		}
 	},
 
@@ -4095,7 +4135,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SG_FEEL, 3},
+			{SKID.SG_FEEL, 3}
 		}
 	},
 
@@ -4107,7 +4147,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SG_FEEL, 1},
+			{SKID.SG_FEEL, 1}
 		}
 	},
 
@@ -4119,7 +4159,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SG_FEEL, 2},
+			{SKID.SG_FEEL, 2}
 		}
 	},
 
@@ -4131,7 +4171,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SG_FEEL, 3},
+			{SKID.SG_FEEL, 3}
 		}
 	},
 
@@ -4152,7 +4192,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SG_HATE, 1},
+			{SKID.SG_HATE, 1}
 		}
 	},
 
@@ -4164,7 +4204,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SG_HATE, 2},
+			{SKID.SG_HATE, 2}
 		}
 	},
 
@@ -4176,7 +4216,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SG_HATE, 3},
+			{SKID.SG_HATE, 3}
 		}
 	},
 
@@ -4189,7 +4229,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.SG_FEEL, 1},
-			{SKID.SG_HATE, 1},
+			{SKID.SG_HATE, 1}
 		}
 	},
 
@@ -4202,7 +4242,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.SG_FEEL, 2},
-			{SKID.SG_HATE, 2},
+			{SKID.SG_HATE, 2}
 		}
 	},
 
@@ -4215,7 +4255,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.SG_FEEL, 3},
-			{SKID.SG_HATE, 3},
+			{SKID.SG_HATE, 3}
 		}
 	},
 
@@ -4254,7 +4294,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.SG_KNOWLEDGE, 9},
+			{SKID.SG_KNOWLEDGE, 9}
 		}
 	},
 
@@ -4320,7 +4360,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SL_STAR, 1},
+			{SKID.SL_STAR, 1}
 		}
 	},
 
@@ -4332,7 +4372,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SL_CRUSADER, 1},
+			{SKID.SL_CRUSADER, 1}
 		}
 	},
 
@@ -4344,7 +4384,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SL_SAGE, 1},
+			{SKID.SL_SAGE, 1}
 		}
 	},
 
@@ -4356,7 +4396,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SL_MONK, 1},
+			{SKID.SL_MONK, 1}
 		}
 	},
 
@@ -4377,7 +4417,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SL_ASSASIN, 1},
+			{SKID.SL_ASSASIN, 1}
 		}
 	},
 
@@ -4398,7 +4438,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SL_ALCHEMIST, 1},
+			{SKID.SL_ALCHEMIST, 1}
 		}
 	},
 
@@ -4410,7 +4450,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.BS_ADRENALINE, 5},
+			{SKID.BS_ADRENALINE, 5}
 		}
 	},
 
@@ -4422,7 +4462,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SL_BARDDANCER, 1},
+			{SKID.SL_BARDDANCER, 1}
 		}
 	},
 
@@ -4434,7 +4474,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SL_STAR, 1},
+			{SKID.SL_STAR, 1}
 		}
 	},
 
@@ -4446,7 +4486,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SL_PRIEST, 1},
+			{SKID.SL_PRIEST, 1}
 		}
 	},
 
@@ -4460,7 +4500,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.SL_CRUSADER, 1},
 			{SKID.SL_MONK, 1},
-			{SKID.SL_PRIEST, 1},
+			{SKID.SL_PRIEST, 1}
 		}
 	},
 
@@ -4473,7 +4513,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9},
 		_NeedSkillList = {
 			{SKID.SL_ASSASIN, 1},
-			{SKID.SL_ROGUE, 1},
+			{SKID.SL_ROGUE, 1}
 		}
 	},
 
@@ -4486,7 +4526,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.SL_SAGE, 1},
-			{SKID.SL_WIZARD, 1},
+			{SKID.SL_WIZARD, 1}
 		}
 	},
 
@@ -4498,7 +4538,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.TK_SPTIME, 1},
+			{SKID.TK_SPTIME, 1}
 		}
 	},
 
@@ -4510,7 +4550,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SL_WIZARD, 1},
+			{SKID.SL_WIZARD, 1}
 		}
 	},
 
@@ -4522,7 +4562,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SL_WIZARD, 1},
+			{SKID.SL_WIZARD, 1}
 		}
 	},
 
@@ -4535,7 +4575,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.SL_STIN, 7},
-			{SKID.SL_STUN, 7},
+			{SKID.SL_STUN, 7}
 		}
 	},
 
@@ -4547,7 +4587,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SL_PRIEST, 1},
+			{SKID.SL_PRIEST, 1}
 		}
 	},
 
@@ -4559,7 +4599,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SL_KNIGHT, 1},
+			{SKID.SL_KNIGHT, 1}
 		}
 	},
 
@@ -4571,7 +4611,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SL_MONK, 1},
+			{SKID.SL_MONK, 1}
 		}
 	},
 
@@ -4583,7 +4623,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.RG_PLAGIARISM, 10},
+			{SKID.RG_PLAGIARISM, 10}
 		}
 	},
 
@@ -4595,7 +4635,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RG_STRIPWEAPON, 5},
+			{SKID.RG_STRIPWEAPON, 5}
 		}
 	},
 
@@ -4607,7 +4647,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BS_WEAPONRESEARCH, 10},
+			{SKID.BS_WEAPONRESEARCH, 10}
 		}
 	},
 
@@ -4619,7 +4659,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.AM_POTIONPITCHER, 5},
+			{SKID.AM_POTIONPITCHER, 5}
 		}
 	},
 
@@ -4634,7 +4674,7 @@ SKILL_INFO_LIST = {
 			{SKID.AM_CP_WEAPON, 5},
 			{SKID.AM_CP_ARMOR, 5},
 			{SKID.AM_CP_SHIELD, 5},
-			{SKID.AM_CP_HELM, 5},
+			{SKID.AM_CP_HELM, 5}
 		}
 	},
 
@@ -4646,7 +4686,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {4, 4, 4, 4, 4},
 		_NeedSkillList = {
-			{SKID.CR_SHIELDBOOMERANG, 5},
+			{SKID.CR_SHIELDBOOMERANG, 5}
 		}
 	},
 
@@ -4659,7 +4699,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.PR_MACEMASTERY, 10},
-			{SKID.AL_DEMONBANE, 10},
+			{SKID.AL_DEMONBANE, 10}
 		}
 	},
 
@@ -4671,7 +4711,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SA_AUTOSPELL, 1},
+			{SKID.SA_AUTOSPELL, 1}
 		}
 	},
 
@@ -4684,7 +4724,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {18},
 		_NeedSkillList = {
 			{SKID.WZ_ESTIMATION, 1},
-			{SKID.WZ_ICEWALL, 1},
+			{SKID.WZ_ICEWALL, 1}
 		}
 	},
 
@@ -4698,7 +4738,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.WZ_QUAGMIRE, 1},
 			{SKID.HW_MAGICCRASHER, 1},
-			{SKID.HW_MAGICPOWER, 10},
+			{SKID.HW_MAGICPOWER, 10}
 		}
 	},
 
@@ -4712,7 +4752,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.MC_MAMMONITE, 10},
 			{SKID.BS_HAMMERFALL, 5},
-			{SKID.WS_CARTBOOST, 1},
+			{SKID.WS_CARTBOOST, 1}
 		}
 	},
 
@@ -4724,7 +4764,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.BS_OVERTHRUST, 5},
+			{SKID.BS_OVERTHRUST, 5}
 		}
 	},
 
@@ -4739,13 +4779,13 @@ SKILL_INFO_LIST = {
 			[JOBID.JT_BARD_H] = {
 				{SKID.CG_MARIONETTE, 1},
 				{SKID.BA_DISSONANCE, 3},
-				{SKID.BA_MUSICALLESSON, 10},
+				{SKID.BA_MUSICALLESSON, 10}
 			},
 			[JOBID.JT_DANCER_H] = {
 				{SKID.CG_MARIONETTE, 1},
 				{SKID.DC_UGLYDANCE, 3},
-				{SKID.DC_DANCINGLESSON, 10},
-			},
+				{SKID.DC_DANCINGLESSON, 10}
+			}
 		}
 	},
 
@@ -4759,12 +4799,12 @@ SKILL_INFO_LIST = {
 		NeedSkillList = {
 			[JOBID.JT_BARD_H] = {
 				{SKID.AC_CONCENTRATION, 10},
-				{SKID.BA_MUSICALLESSON, 10},
+				{SKID.BA_MUSICALLESSON, 10}
 			},
 			[JOBID.JT_DANCER_H] = {
 				{SKID.AC_CONCENTRATION, 10},
-				{SKID.DC_DANCINGLESSON, 10},
-			},
+				{SKID.DC_DANCINGLESSON, 10}
+			}
 		}
 	},
 
@@ -4778,12 +4818,12 @@ SKILL_INFO_LIST = {
 		NeedSkillList = {
 			[JOBID.JT_BARD_H] = {
 				{SKID.AC_CONCENTRATION, 10},
-				{SKID.BA_DISSONANCE, 3},
+				{SKID.BA_DISSONANCE, 3}
 			},
 			[JOBID.JT_DANCER_H] = {
 				{SKID.AC_CONCENTRATION, 10},
-				{SKID.DC_UGLYDANCE, 3},
-			},
+				{SKID.DC_UGLYDANCE, 3}
+			}
 		}
 	},
 
@@ -4796,7 +4836,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.AM_DEMONSTRATION, 5},
-			{SKID.AM_ACIDTERROR, 5},
+			{SKID.AM_ACIDTERROR, 5}
 		}
 	},
 
@@ -4817,7 +4857,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.TK_POWER, 5},
+			{SKID.TK_POWER, 5}
 		}
 	},
 
@@ -4829,7 +4869,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SL_SUPERNOVICE, 5},
+			{SKID.SL_SUPERNOVICE, 5}
 		}
 	},
 
@@ -4841,7 +4881,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.KN_TWOHANDQUICKEN, 10},
+			{SKID.KN_TWOHANDQUICKEN, 10}
 		}
 	},
 
@@ -4853,7 +4893,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.AM_PHARMACY, 10},
+			{SKID.AM_PHARMACY, 10}
 		}
 	},
 
@@ -4865,7 +4905,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.AM_PHARMACY, 10},
+			{SKID.AM_PHARMACY, 10}
 		}
 	},
 
@@ -4877,7 +4917,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.AM_PHARMACY, 10},
+			{SKID.AM_PHARMACY, 10}
 		}
 	},
 
@@ -4889,7 +4929,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9},
 		_NeedSkillList = {
-			{SKID.AC_DOUBLE, 10},
+			{SKID.AC_DOUBLE, 10}
 		}
 	},
 
@@ -4910,7 +4950,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9},
 		_NeedSkillList = {
-			{SKID.GS_GLITTERING, 1},
+			{SKID.GS_GLITTERING, 1}
 		}
 	},
 
@@ -4923,7 +4963,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9},
 		_NeedSkillList = {
 			{SKID.GS_GLITTERING, 1},
-			{SKID.GS_CHAINACTION, 10},
+			{SKID.GS_CHAINACTION, 10}
 		}
 	},
 
@@ -4936,7 +4976,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9},
 		_NeedSkillList = {
 			{SKID.GS_GLITTERING, 5},
-			{SKID.GS_TRACKING, 10},
+			{SKID.GS_TRACKING, 10}
 		}
 	},
 
@@ -4949,7 +4989,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1},
 		_NeedSkillList = {
 			{SKID.GS_GATLINGFEVER, 10},
-			{SKID.GS_GLITTERING, 4},
+			{SKID.GS_GLITTERING, 4}
 		}
 	},
 
@@ -4962,7 +5002,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1},
 		_NeedSkillList = {
 			{SKID.GS_GLITTERING, 4},
-			{SKID.GS_DISARM, 5},
+			{SKID.GS_DISARM, 5}
 		}
 	},
 
@@ -4975,7 +5015,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1},
 		_NeedSkillList = {
 			{SKID.GS_GLITTERING, 2},
-			{SKID.GS_SNAKEEYE, 10},
+			{SKID.GS_SNAKEEYE, 10}
 		}
 	},
 
@@ -4987,7 +5027,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9},
 		_NeedSkillList = {
-			{SKID.GS_GLITTERING, 1},
+			{SKID.GS_GLITTERING, 1}
 		}
 	},
 
@@ -4999,7 +5039,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9},
 		_NeedSkillList = {
-			{SKID.GS_GLITTERING, 1},
+			{SKID.GS_GLITTERING, 1}
 		}
 	},
 
@@ -5029,7 +5069,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.GS_SINGLEACTION, 1},
+			{SKID.GS_SINGLEACTION, 1}
 		}
 	},
 
@@ -5041,7 +5081,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.GS_SINGLEACTION, 5},
+			{SKID.GS_SINGLEACTION, 5}
 		}
 	},
 
@@ -5053,7 +5093,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.GS_TRACKING, 7},
+			{SKID.GS_TRACKING, 7}
 		}
 	},
 
@@ -5065,7 +5105,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.GS_TRACKING, 5},
+			{SKID.GS_TRACKING, 5}
 		}
 	},
 
@@ -5077,7 +5117,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.GS_CHAINACTION, 3},
+			{SKID.GS_CHAINACTION, 3}
 		}
 	},
 
@@ -5089,7 +5129,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.GS_RAPIDSHOWER, 5},
+			{SKID.GS_RAPIDSHOWER, 5}
 		}
 	},
 
@@ -5102,7 +5142,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.GS_RAPIDSHOWER, 7},
-			{SKID.GS_DESPERADO, 5},
+			{SKID.GS_DESPERADO, 5}
 		}
 	},
 
@@ -5114,7 +5154,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {2, 2, 2, 2, 2, 2, 2, 2, 2, 2},
 		_NeedSkillList = {
-			{SKID.GS_SINGLEACTION, 5},
+			{SKID.GS_SINGLEACTION, 5}
 		}
 	},
 
@@ -5126,7 +5166,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.GS_DUST, 3},
+			{SKID.GS_DUST, 3}
 		}
 	},
 
@@ -5138,7 +5178,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.GS_FULLBUSTER, 5},
+			{SKID.GS_FULLBUSTER, 5}
 		}
 	},
 
@@ -5151,7 +5191,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.GS_SPREADATTACK, 7},
-			{SKID.GS_FULLBUSTER, 5},
+			{SKID.GS_FULLBUSTER, 5}
 		}
 	},
 
@@ -5172,7 +5212,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.NJ_TOBIDOUGU, 1},
+			{SKID.NJ_TOBIDOUGU, 1}
 		}
 	},
 
@@ -5184,7 +5224,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.NJ_SYURIKEN, 5},
+			{SKID.NJ_SYURIKEN, 5}
 		}
 	},
 
@@ -5197,7 +5237,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.NJ_TOBIDOUGU, 5},
-			{SKID.NJ_KUNAI, 5},
+			{SKID.NJ_KUNAI, 5}
 		}
 	},
 
@@ -5210,7 +5250,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {7, 7, 7, 7, 7, 7, 7, 7, 7, 7},
 		_NeedSkillList = {
 			{SKID.NJ_TOBIDOUGU, 10},
-			{SKID.NJ_HUUMA, 5},
+			{SKID.NJ_HUUMA, 5}
 		}
 	},
 
@@ -5231,7 +5271,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.NJ_SHADOWJUMP, 1},
+			{SKID.NJ_SHADOWJUMP, 1}
 		}
 	},
 
@@ -5243,7 +5283,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {6, 8, 10, 12, 14},
 		_NeedSkillList = {
-			{SKID.NJ_TATAMIGAESHI, 1},
+			{SKID.NJ_TATAMIGAESHI, 1}
 		}
 	},
 
@@ -5255,7 +5295,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.NJ_KASUMIKIRI, 5},
+			{SKID.NJ_KASUMIKIRI, 5}
 		}
 	},
 
@@ -5267,7 +5307,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.NJ_SHADOWJUMP, 5},
+			{SKID.NJ_SHADOWJUMP, 5}
 		}
 	},
 
@@ -5281,7 +5321,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.NJ_NEN, 1},
 			{SKID.NJ_UTSUSEMI, 4},
-			{SKID.NJ_KIRIKAGE, 3},
+			{SKID.NJ_KIRIKAGE, 3}
 		}
 	},
 
@@ -5302,7 +5342,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.NJ_NINPOU, 1},
+			{SKID.NJ_NINPOU, 1}
 		}
 	},
 
@@ -5314,7 +5354,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.NJ_KOUENKA, 5},
+			{SKID.NJ_KOUENKA, 5}
 		}
 	},
 
@@ -5327,7 +5367,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.NJ_NINPOU, 10},
-			{SKID.NJ_KAENSIN, 7},
+			{SKID.NJ_KAENSIN, 7}
 		}
 	},
 
@@ -5339,7 +5379,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.NJ_NINPOU, 1},
+			{SKID.NJ_NINPOU, 1}
 		}
 	},
 
@@ -5351,7 +5391,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.NJ_HYOUSENSOU, 5},
+			{SKID.NJ_HYOUSENSOU, 5}
 		}
 	},
 
@@ -5364,7 +5404,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.NJ_NINPOU, 10},
-			{SKID.NJ_SUITON, 7},
+			{SKID.NJ_SUITON, 7}
 		}
 	},
 
@@ -5376,7 +5416,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.NJ_NINPOU, 1},
+			{SKID.NJ_NINPOU, 1}
 		}
 	},
 
@@ -5388,7 +5428,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.NJ_HUUJIN, 5},
+			{SKID.NJ_HUUJIN, 5}
 		}
 	},
 
@@ -5401,7 +5441,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {5, 6, 7, 8, 9},
 		_NeedSkillList = {
 			{SKID.NJ_NINPOU, 10},
-			{SKID.NJ_RAIGEKISAI, 5},
+			{SKID.NJ_RAIGEKISAI, 5}
 		}
 	},
 
@@ -5413,7 +5453,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.NJ_NINPOU, 5},
+			{SKID.NJ_NINPOU, 5}
 		}
 	},
 
@@ -5427,7 +5467,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.NJ_TOBIDOUGU, 7},
 			{SKID.NJ_NEN, 1},
-			{SKID.NJ_KIRIKAGE, 5},
+			{SKID.NJ_KIRIKAGE, 5}
 		}
 	},
 
@@ -6828,68 +6868,68 @@ SKILL_INFO_LIST = {
 
 	[SKID.RK_ENCHANTBLADE] = {
 		"RK_ENCHANTBLADE";
-		SkillName = "¸½Ä§Ö®ÈÐ",
+		SkillName = "Ä§Á¦½£",
 		MaxLv = 5,
 		SpAmount = {40, 45, 50, 55, 60},
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RK_RUNEMASTERY, 2},
+			{SKID.RK_RUNEMASTERY, 2}
 		}
 	},
 
 	[SKID.RK_SONICWAVE] = {
 		"RK_SONICWAVE";
-		SkillName = "³å»÷Ö®ÈÐ",
+		SkillName = "ÒôËÙ³å»÷²¨",
 		MaxLv = 5,
 		SpAmount = {30, 35, 40, 45, 50},
 		bSeperateLv = true,
 		AttackRange = {7, 8, 9, 10, 11},
 		_NeedSkillList = {
-			{SKID.RK_ENCHANTBLADE, 3},
+			{SKID.RK_ENCHANTBLADE, 3}
 		}
 	},
 
 	[SKID.RK_DEATHBOUND] = {
 		"RK_DEATHBOUND";
-		SkillName = "ËÀÍöÀ¦°ó",
+		SkillName = "ËÀÍö·´µ¯",
 		MaxLv = 10,
 		SpAmount = {50, 60, 65, 70, 75, 80, 85, 90, 95, 100},
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.KN_AUTOCOUNTER, 1},
-			{SKID.RK_ENCHANTBLADE, 2},
+			{SKID.RK_ENCHANTBLADE, 2}
 		}
 	},
 
 	[SKID.RK_HUNDREDSPEAR] = {
 		"RK_HUNDREDSPEAR";
-		SkillName = "¼±ËÙ´Á´Ì",
+		SkillName = "°ÙÃ¬´©´Ì",
 		MaxLv = 10,
 		SpAmount = {60, 60, 60, 60, 60, 60, 60, 60, 60, 60},
 		bSeperateLv = true,
 		AttackRange = {5, 5, 5, 5, 5, 5, 5, 5, 5, 5},
 		_NeedSkillList = {
-			{SKID.RK_PHANTOMTHRUST, 3},
+			{SKID.RK_PHANTOMTHRUST, 3}
 		}
 	},
 
 	[SKID.RK_WINDCUTTER] = {
 		"RK_WINDCUTTER";
-		SkillName = "ÁÑ·çÖ®ÈÐ",
+		SkillName = "·çÑ¹·ÉÈÐ",
 		MaxLv = 5,
 		SpAmount = {20, 24, 28, 32, 36},
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RK_ENCHANTBLADE, 5},
+			{SKID.RK_ENCHANTBLADE, 5}
 		}
 	},
 
 	[SKID.RK_IGNITIONBREAK] = {
 		"RK_IGNITIONBREAK";
-		SkillName = "±¬ÁÑÖ®ÈÐ",
+		SkillName = "ÖÂÃü±¬ÁÑ",
 		MaxLv = 5,
 		SpAmount = {35, 40, 45, 50, 55},
 		bSeperateLv = true,
@@ -6897,31 +6937,31 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.RK_DEATHBOUND, 5},
 			{SKID.RK_SONICWAVE, 2},
-			{SKID.RK_WINDCUTTER, 3},
+			{SKID.RK_WINDCUTTER, 3}
 		}
 	},
 
 	[SKID.RK_DRAGONTRAINING] = {
 		"RK_DRAGONTRAINING";
-		SkillName = "ÑµÁúÊõ",
+		SkillName = "Áú¼ÝÔ¦",
 		MaxLv = 5,
 		SpAmount = {0, 0, 0, 0, 0},
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.KN_CAVALIERMASTERY, 1},
+			{SKID.KN_CAVALIERMASTERY, 1}
 		}
 	},
 
 	[SKID.RK_DRAGONBREATH] = {
 		"RK_DRAGONBREATH";
-		SkillName = "ÁúÖ®ÍÂÏ¢",
+		SkillName = "ÁúÖ®ÆøÏ¢",
 		MaxLv = 10,
 		SpAmount = {30, 35, 40, 45, 50, 55, 60, 65, 70, 75},
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.RK_DRAGONTRAINING, 2},
+			{SKID.RK_DRAGONTRAINING, 2}
 		}
 	},
 
@@ -6933,13 +6973,13 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RK_DRAGONTRAINING, 2},
+			{SKID.RK_DRAGONTRAINING, 2}
 		}
 	},
 
 	[SKID.RK_RUNEMASTERY] = {
 		"RK_RUNEMASTERY";
-		SkillName = "·ûÎÄÕÆÎÕ",
+		SkillName = "Â¬¶÷¾«Êì",
 		MaxLv = 10,
 		SpAmount = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 		bSeperateLv = false,
@@ -7029,13 +7069,13 @@ SKILL_INFO_LIST = {
 
 	[SKID.RK_PHANTOMTHRUST] = {
 		"RK_PHANTOMTHRUST";
-		SkillName = "»ÃÓ°´Ì»÷",
+		SkillName = "»ÃÏóÍ»´Ì",
 		MaxLv = 5,
 		SpAmount = {15, 18, 21, 24, 27},
 		bSeperateLv = true,
 		AttackRange = {5, 6, 7, 8, 9},
 		_NeedSkillList = {
-			{SKID.KN_BRANDISHSPEAR, 2},
+			{SKID.KN_BRANDISHSPEAR, 2}
 		}
 	},
 
@@ -7056,7 +7096,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {3, 3, 3, 3, 3},
 		_NeedSkillList = {
-			{SKID.AS_SONICBLOW, 10},
+			{SKID.AS_SONICBLOW, 10}
 		}
 	},
 
@@ -7068,7 +7108,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {5, 6, 7, 8, 9},
 		_NeedSkillList = {
-			{SKID.GC_CROSSIMPACT, 3},
+			{SKID.GC_CROSSIMPACT, 3}
 		}
 	},
 
@@ -7089,7 +7129,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.GC_RESEARCHNEWPOISON, 1},
+			{SKID.GC_RESEARCHNEWPOISON, 1}
 		}
 	},
 
@@ -7101,7 +7141,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {5},
 		_NeedSkillList = {
-			{SKID.GC_RESEARCHNEWPOISON, 5},
+			{SKID.GC_RESEARCHNEWPOISON, 5}
 		}
 	},
 
@@ -7113,7 +7153,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.GC_CREATENEWPOISON, 1},
+			{SKID.GC_CREATENEWPOISON, 1}
 		}
 	},
 
@@ -7125,7 +7165,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AS_LEFT, 5},
+			{SKID.AS_LEFT, 5}
 		}
 	},
 
@@ -7137,7 +7177,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.GC_WEAPONBLOCKING, 1},
+			{SKID.GC_WEAPONBLOCKING, 1}
 		}
 	},
 
@@ -7149,7 +7189,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.GC_WEAPONBLOCKING, 1},
+			{SKID.GC_WEAPONBLOCKING, 1}
 		}
 	},
 
@@ -7162,7 +7202,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.GC_WEAPONBLOCKING, 1},
-			{SKID.GC_POISONINGWEAPON, 3},
+			{SKID.GC_POISONINGWEAPON, 3}
 		}
 	},
 
@@ -7175,7 +7215,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {5, 5, 5, 5, 5},
 		_NeedSkillList = {
 			{SKID.GC_POISONINGWEAPON, 5},
-			{SKID.GC_VENOMPRESSURE, 5},
+			{SKID.GC_VENOMPRESSURE, 5}
 		}
 	},
 
@@ -7187,7 +7227,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AS_CLOAKING, 3},
+			{SKID.AS_CLOAKING, 3}
 		}
 	},
 
@@ -7200,7 +7240,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1},
 		_NeedSkillList = {
 			{SKID.GC_CLOAKINGEXCEED, 5},
-			{SKID.GC_DARKILLUSION, 5},
+			{SKID.GC_DARKILLUSION, 5}
 		}
 	},
 
@@ -7212,7 +7252,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.GC_PHANTOMMENACE, 1},
+			{SKID.GC_PHANTOMMENACE, 1}
 		}
 	},
 
@@ -7224,7 +7264,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AS_SONICBLOW, 10},
+			{SKID.AS_SONICBLOW, 10}
 		}
 	},
 
@@ -7236,7 +7276,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 10, 11, 12, 13},
 		_NeedSkillList = {
-			{SKID.GC_ROLLINGCUTTER, 1},
+			{SKID.GC_ROLLINGCUTTER, 1}
 		}
 	},
 
@@ -7248,7 +7288,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.PR_TURNUNDEAD, 1},
+			{SKID.PR_TURNUNDEAD, 1}
 		}
 	},
 
@@ -7260,7 +7300,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.AB_CLEMENTIA, 3},
+			{SKID.AB_CLEMENTIA, 3}
 		}
 	},
 
@@ -7274,7 +7314,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.AB_JUDEX, 5},
 			{SKID.AB_ANCILLA, 1},
-			{SKID.PR_MAGNUS, 1},
+			{SKID.PR_MAGNUS, 1}
 		}
 	},
 
@@ -7286,7 +7326,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AL_BLESSING, 1},
+			{SKID.AL_BLESSING, 1}
 		}
 	},
 
@@ -7298,7 +7338,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AL_INCAGI, 1},
+			{SKID.AL_INCAGI, 1}
 		}
 	},
 
@@ -7310,7 +7350,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AL_HEAL, 1},
+			{SKID.AL_HEAL, 1}
 		}
 	},
 
@@ -7323,7 +7363,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
 			{SKID.AB_ANCILLA, 1},
-			{SKID.AB_HIGHNESSHEAL, 1},
+			{SKID.AB_HIGHNESSHEAL, 1}
 		}
 	},
 
@@ -7335,7 +7375,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {11, 11, 11, 11, 11, 11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.PR_KYRIE, 1},
+			{SKID.PR_KYRIE, 1}
 		}
 	},
 
@@ -7347,7 +7387,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {11, 11, 11, 11, 11, 11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.AB_PRAEFATIO, 5},
+			{SKID.AB_PRAEFATIO, 5}
 		}
 	},
 
@@ -7359,7 +7399,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.PR_STRECOVERY, 1},
+			{SKID.PR_STRECOVERY, 1}
 		}
 	},
 
@@ -7371,7 +7411,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.AB_LAUDAAGNUS, 2},
+			{SKID.AB_LAUDAAGNUS, 2}
 		}
 	},
 
@@ -7384,7 +7424,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.AB_EXPIATIO, 1},
-			{SKID.AB_EPICLESIS, 1},
+			{SKID.AB_EPICLESIS, 1}
 		}
 	},
 
@@ -7396,7 +7436,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {11},
 		_NeedSkillList = {
-			{SKID.AB_CHEAL, 3},
+			{SKID.AB_CHEAL, 3}
 		}
 	},
 
@@ -7408,7 +7448,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.AB_RENOVATIO, 1},
+			{SKID.AB_RENOVATIO, 1}
 		}
 	},
 
@@ -7420,7 +7460,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.AB_LAUDARAMUS, 2},
+			{SKID.AB_LAUDARAMUS, 2}
 		}
 	},
 
@@ -7433,7 +7473,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
 			{SKID.AB_DUPLELIGHT, 5},
-			{SKID.AB_ORATIO, 5},
+			{SKID.AB_ORATIO, 5}
 		}
 	},
 
@@ -7445,7 +7485,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11, 11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.PR_ASPERSIO, 1},
+			{SKID.PR_ASPERSIO, 1}
 		}
 	},
 
@@ -7475,7 +7515,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {4, 5, 6, 7, 8},
 		_NeedSkillList = {
-			{SKID.AB_CLEARANCE, 1},
+			{SKID.AB_CLEARANCE, 1}
 		}
 	},
 
@@ -7487,61 +7527,61 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.WL_SOULEXPANSION, 3},
+			{SKID.WL_SOULEXPANSION, 3}
 		}
 	},
 
 	[SKID.WL_SOULEXPANSION] = {
 		"WL_SOULEXPANSION";
-		SkillName = "Áé»ê±¬·¢",
+		SkillName = "Áé»ê±¬Õ¨",
 		MaxLv = 5,
 		SpAmount = {30, 35, 40, 45, 50},
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.WL_DRAINLIFE, 1},
+			{SKID.WL_DRAINLIFE, 1}
 		}
 	},
 
 	[SKID.WL_FROSTMISTY] = {
 		"WL_FROSTMISTY";
-		SkillName = "±ùÎí",
+		SkillName = "º®±ùÅ¨Îí",
 		MaxLv = 5,
 		SpAmount = {40, 48, 56, 64, 72},
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.WL_SUMMONWB, 1},
+			{SKID.WL_SUMMONWB, 1}
 		}
 	},
 
 	[SKID.WL_JACKFROST] = {
 		"WL_JACKFROST";
-		SkillName = "Ëª¶³±¬ÆÆ",
+		SkillName = "¶³½©Êõ",
 		MaxLv = 5,
 		SpAmount = {50, 60, 70, 80, 90},
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.WL_FROSTMISTY, 2},
+			{SKID.WL_FROSTMISTY, 2}
 		}
 	},
 
 	[SKID.WL_MARSHOFABYSS] = {
 		"WL_MARSHOFABYSS";
-		SkillName = "ÉîÔ¨ÄàÕÓ",
+		SkillName = "ÉîÔ¨ÕÓµØ",
 		MaxLv = 5,
 		SpAmount = {40, 42, 44, 46, 48},
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.WZ_QUAGMIRE, 1},
+			{SKID.WZ_QUAGMIRE, 1}
 		}
 	},
 
 	[SKID.WL_RECOGNIZEDSPELL] = {
 		"WL_RECOGNIZEDSPELL";
-		SkillName = "Ä§·¨Àí½â",
+		SkillName = "Ä§·¨Ê¡Îò",
 		MaxLv = 5,
 		SpAmount = {100, 120, 140, 160, 180},
 		bSeperateLv = true,
@@ -7549,7 +7589,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.WL_RELEASE, 2},
 			{SKID.WL_STASIS, 1},
-			{SKID.WL_WHITEIMPRISON, 1},
+			{SKID.WL_WHITEIMPRISON, 1}
 		}
 	},
 
@@ -7561,13 +7601,13 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {7, 7, 7, 7, 7},
 		_NeedSkillList = {
-			{SKID.WL_SUMMONSTONE, 1},
+			{SKID.WL_SUMMONSTONE, 1}
 		}
 	},
 
 	[SKID.WL_RADIUS] = {
 		"WL_RADIUS";
-		SkillName = "°ë¾¶·øÉä",
+		SkillName = "°ë¾¶À©´ó",
 		MaxLv = 3,
 		SpAmount = {0, 0, 0},
 		bSeperateLv = false,
@@ -7576,91 +7616,91 @@ SKILL_INFO_LIST = {
 
 	[SKID.WL_STASIS] = {
 		"WL_STASIS";
-		SkillName = "Ä§Á¦Ëª¶³",
+		SkillName = "Ä§Á¦¶³½á",
 		MaxLv = 5,
 		SpAmount = {50, 60, 70, 80, 90},
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.WL_DRAINLIFE, 1},
+			{SKID.WL_DRAINLIFE, 1}
 		}
 	},
 
 	[SKID.WL_DRAINLIFE] = {
 		"WL_DRAINLIFE";
-		SkillName = "ÉúÃüÎüÊÕ",
+		SkillName = "ÎüÐÇ´ó·¨",
 		MaxLv = 5,
 		SpAmount = {20, 24, 28, 32, 36},
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.WL_RADIUS, 1},
+			{SKID.WL_RADIUS, 1}
 		}
 	},
 
 	[SKID.WL_CRIMSONROCK] = {
 		"WL_CRIMSONROCK";
-		SkillName = "ÉîºìÔÉÊ¯",
+		SkillName = "±ÌÑªÔÉÊ¯",
 		MaxLv = 5,
 		SpAmount = {60, 70, 80, 90, 100},
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.WL_SUMMONFB, 1},
+			{SKID.WL_SUMMONFB, 1}
 		}
 	},
 
 	[SKID.WL_HELLINFERNO] = {
 		"WL_HELLINFERNO";
-		SkillName = "»ÙÃðÁÒÑæ",
+		SkillName = "µØÓü»ðÑæ",
 		MaxLv = 5,
 		SpAmount = {35, 40, 45, 50, 55},
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.WL_CRIMSONROCK, 2},
+			{SKID.WL_CRIMSONROCK, 2}
 		}
 	},
 
 	[SKID.WL_COMET] = {
 		"WL_COMET";
-		SkillName = "ÆÆ»µåçÐÇ",
+		SkillName = "»ÙÃð»ÛÐÇ",
 		MaxLv = 5,
 		SpAmount = {480, 560, 640, 720, 800},
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.WL_HELLINFERNO, 3},
+			{SKID.WL_HELLINFERNO, 3}
 		}
 	},
 
 	[SKID.WL_CHAINLIGHTNING] = {
 		"WL_CHAINLIGHTNING";
-		SkillName = "Á¬ËøÉÁµç",
+		SkillName = "Á¬Ëøµç»÷",
 		MaxLv = 5,
 		SpAmount = {80, 90, 100, 110, 120},
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.WL_SUMMONBL, 1},
+			{SKID.WL_SUMMONBL, 1}
 		}
 	},
 
 	[SKID.WL_EARTHSTRAIN] = {
 		"WL_EARTHSTRAIN";
-		SkillName = "´óµØÅ¤Çú",
+		SkillName = "µØÅ£·­Éí",
 		MaxLv = 5,
 		SpAmount = {70, 78, 86, 94, 102},
 		bSeperateLv = true,
 		AttackRange = {6, 6, 6, 6, 6},
 		_NeedSkillList = {
-			{SKID.WL_SIENNAEXECRATE, 2},
+			{SKID.WL_SIENNAEXECRATE, 2}
 		}
 	},
 
 	[SKID.WL_TETRAVORTEX] = {
 		"WL_TETRAVORTEX";
-		SkillName = "ÔªËØäöÎÐ",
+		SkillName = "ÊôÐÔäöÎÐ",
 		MaxLv = 5,
 		SpAmount = {120, 150, 180, 210, 240},
 		bSeperateLv = true,
@@ -7669,31 +7709,31 @@ SKILL_INFO_LIST = {
 			{SKID.WL_CHAINLIGHTNING, 5},
 			{SKID.WL_HELLINFERNO, 5},
 			{SKID.WL_JACKFROST, 5},
-			{SKID.WL_EARTHSTRAIN, 5},
+			{SKID.WL_EARTHSTRAIN, 5}
 		}
 	},
 
 	[SKID.WL_SUMMONFB] = {
 		"WL_SUMMONFB";
-		SkillName = "ÕÙ»½»ðÇò",
+		SkillName = "ÕÙ»½»ðÑæÇò",
 		MaxLv = 5,
 		SpAmount = {10, 12, 14, 16, 18},
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.WZ_METEOR, 1},
+			{SKID.WZ_METEOR, 1}
 		}
 	},
 
 	[SKID.WL_SUMMONBL] = {
 		"WL_SUMMONBL";
-		SkillName = "ÕÙ»½ÉÁµçÇò",
+		SkillName = "ÕÙ»½À×µçÇò",
 		MaxLv = 5,
 		SpAmount = {10, 12, 14, 16, 18},
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.WZ_VERMILION, 1},
+			{SKID.WZ_VERMILION, 1}
 		}
 	},
 
@@ -7705,7 +7745,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.WZ_STORMGUST, 1},
+			{SKID.WZ_STORMGUST, 1}
 		}
 	},
 
@@ -7717,13 +7757,13 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.WZ_HEAVENDRIVE, 1},
+			{SKID.WZ_HEAVENDRIVE, 1}
 		}
 	},
 
 	[SKID.WL_RELEASE] = {
 		"WL_RELEASE";
-		SkillName = "½â·Å",
+		SkillName = "ÊÍ·Å",
 		MaxLv = 2,
 		SpAmount = {3, 20},
 		bSeperateLv = true,
@@ -7732,7 +7772,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.WL_READING_SB] = {
 		"WL_READING_SB";
-		SkillName = "Ä§·¨ÊéÔÄ¶Á",
+		SkillName = "ÔÄ¶ÁÄ§·¨Êé",
 		MaxLv = 1,
 		SpAmount = {40},
 		bSeperateLv = false,
@@ -7750,32 +7790,32 @@ SKILL_INFO_LIST = {
 
 	[SKID.RA_ARROWSTORM] = {
 		"RA_ARROWSTORM";
-		SkillName = "¼ýÊ¸·ç±©",
+		SkillName = "¼ýÓê·ç±©",
 		MaxLv = 10,
 		SpAmount = {30, 32, 34, 36, 38, 40, 42, 44, 46, 48},
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.RA_AIMEDBOLT, 5},
+			{SKID.RA_AIMEDBOLT, 5}
 		}
 	},
 
 	[SKID.RA_FEARBREEZE] = {
 		"RA_FEARBREEZE";
-		SkillName = "ÍÀÂ¾Éä»÷",
+		SkillName = "Î¢·ç¿Ö¾å",
 		MaxLv = 5,
 		SpAmount = {55, 60, 65, 70, 75},
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.RA_ARROWSTORM, 5},
-			{SKID.RA_CAMOUFLAGE, 1},
+			{SKID.RA_CAMOUFLAGE, 1}
 		}
 	},
 
 	[SKID.RA_RANGERMAIN] = {
 		"RA_RANGERMAIN";
-		SkillName = "ÓÎÏÀµÄ¾öÐÄ",
+		SkillName = "ÓÎÏÀÖ÷Òâ",
 		MaxLv = 10,
 		SpAmount = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 		bSeperateLv = false,
@@ -7784,25 +7824,25 @@ SKILL_INFO_LIST = {
 
 	[SKID.RA_AIMEDBOLT] = {
 		"RA_AIMEDBOLT";
-		SkillName = "Ãé×¼Éä»÷",
+		SkillName = "Ãé×¼±ê°Ð",
 		MaxLv = 10,
 		SpAmount = {30, 32, 34, 36, 38, 40, 42, 44, 46, 48},
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.HT_ANKLESNARE, 5},
+			{SKID.HT_ANKLESNARE, 5}
 		}
 	},
 
 	[SKID.RA_DETONATOR] = {
 		"RA_DETONATOR";
-		SkillName = "Òý±¬",
+		SkillName = "À×¹Ü",
 		MaxLv = 1,
 		SpAmount = {15},
 		bSeperateLv = false,
 		AttackRange = {9},
 		_NeedSkillList = {
-			{SKID.RA_CLUSTERBOMB, 3},
+			{SKID.RA_CLUSTERBOMB, 3}
 		}
 	},
 
@@ -7814,25 +7854,25 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {3, 3, 3, 3, 3},
 		_NeedSkillList = {
-			{SKID.HT_SHOCKWAVE, 5},
+			{SKID.HT_SHOCKWAVE, 5}
 		}
 	},
 
 	[SKID.RA_CLUSTERBOMB] = {
 		"RA_CLUSTERBOMB";
-		SkillName = "¼¯ÊøÕ¨µ¯",
+		SkillName = "Áñö±µ¯",
 		MaxLv = 5,
 		SpAmount = {20, 20, 20, 20, 20},
 		bSeperateLv = false,
 		AttackRange = {3, 3, 3, 3, 3},
 		_NeedSkillList = {
-			{SKID.RA_RESEARCHTRAP, 3},
+			{SKID.RA_RESEARCHTRAP, 3}
 		}
 	},
 
 	[SKID.RA_WUGMASTERY] = {
 		"RA_WUGMASTERY";
-		SkillName = "ÑµÀÇÊõ",
+		SkillName = "ÕÙÀÇÊõ",
 		MaxLv = 1,
 		SpAmount = {5},
 		bSeperateLv = false,
@@ -7847,19 +7887,19 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RA_WUGMASTERY, 1},
+			{SKID.RA_WUGMASTERY, 1}
 		}
 	},
 
 	[SKID.RA_WUGDASH] = {
 		"RA_WUGDASH";
-		SkillName = "ÀÇ¼²×ß",
+		SkillName = "¼²ÀÇÊõ",
 		MaxLv = 1,
 		SpAmount = {4},
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.RA_WUGRIDER, 1},
+			{SKID.RA_WUGRIDER, 1}
 		}
 	},
 
@@ -7871,19 +7911,19 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.RA_TOOTHOFWUG, 1},
+			{SKID.RA_TOOTHOFWUG, 1}
 		}
 	},
 
 	[SKID.RA_WUGBITE] = {
 		"RA_WUGBITE";
-		SkillName = "ÀÇËºÒ§",
+		SkillName = "ÀÇÒ§",
 		MaxLv = 5,
 		SpAmount = {40, 44, 46, 48, 50},
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.RA_WUGSTRIKE, 1},
+			{SKID.RA_WUGSTRIKE, 1}
 		}
 	},
 
@@ -7895,7 +7935,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RA_WUGMASTERY, 1},
+			{SKID.RA_WUGMASTERY, 1}
 		}
 	},
 
@@ -7907,19 +7947,19 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RA_TOOTHOFWUG, 3},
+			{SKID.RA_TOOTHOFWUG, 3}
 		}
 	},
 
 	[SKID.RA_CAMOUFLAGE] = {
 		"RA_CAMOUFLAGE";
-		SkillName = "Òþ±ÎÕ½Êõ",
+		SkillName = "Î±×°Õ½Êõ",
 		MaxLv = 5,
 		SpAmount = {40, 40, 40, 40, 40},
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RA_RANGERMAIN, 1},
+			{SKID.RA_RANGERMAIN, 1}
 		}
 	},
 
@@ -7932,7 +7972,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.HT_CLAYMORETRAP, 1},
-			{SKID.HT_REMOVETRAP, 1},
+			{SKID.HT_REMOVETRAP, 1}
 		}
 	},
 
@@ -7944,7 +7984,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {3},
 		_NeedSkillList = {
-			{SKID.RA_RESEARCHTRAP, 1},
+			{SKID.RA_RESEARCHTRAP, 1}
 		}
 	},
 
@@ -7956,55 +7996,55 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {3},
 		_NeedSkillList = {
-			{SKID.RA_RESEARCHTRAP, 1},
+			{SKID.RA_RESEARCHTRAP, 1}
 		}
 	},
 
 	[SKID.RA_MAIZETRAP] = {
 		"RA_MAIZETRAP";
-		SkillName = "µ­»ÆÏÝÚå",
+		SkillName = "Ç³»ÆÏÝÚå",
 		MaxLv = 1,
 		SpAmount = {10},
 		bSeperateLv = false,
 		AttackRange = {3},
 		_NeedSkillList = {
-			{SKID.RA_RESEARCHTRAP, 1},
+			{SKID.RA_RESEARCHTRAP, 1}
 		}
 	},
 
 	[SKID.RA_VERDURETRAP] = {
 		"RA_VERDURETRAP";
-		SkillName = "ÇàÂÌÏÝÚå",
+		SkillName = "Çà´äÏÝÚå",
 		MaxLv = 1,
 		SpAmount = {10},
 		bSeperateLv = false,
 		AttackRange = {3},
 		_NeedSkillList = {
-			{SKID.RA_RESEARCHTRAP, 1},
+			{SKID.RA_RESEARCHTRAP, 1}
 		}
 	},
 
 	[SKID.RA_FIRINGTRAP] = {
 		"RA_FIRINGTRAP";
-		SkillName = "»ðÑæÏÝÚå",
+		SkillName = "È¼ÉÕÏÝÚå",
 		MaxLv = 5,
 		SpAmount = {10, 10, 10, 10, 10},
 		bSeperateLv = false,
 		AttackRange = {3, 3, 3, 3, 3},
 		_NeedSkillList = {
-			{SKID.RA_DETONATOR, 1},
+			{SKID.RA_DETONATOR, 1}
 		}
 	},
 
 	[SKID.RA_ICEBOUNDTRAP] = {
 		"RA_ICEBOUNDTRAP";
-		SkillName = "Ëª¶³ÏÝÚå",
+		SkillName = "±ù·âÏÝÚå",
 		MaxLv = 5,
 		SpAmount = {10, 10, 10, 10, 10},
 		bSeperateLv = false,
 		AttackRange = {3, 3, 3, 3, 3},
 		_NeedSkillList = {
-			{SKID.RA_DETONATOR, 1},
+			{SKID.RA_DETONATOR, 1}
 		}
 	},
 
@@ -8025,7 +8065,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.NC_MADOLICENCE, 1},
+			{SKID.NC_MADOLICENCE, 1}
 		}
 	},
 
@@ -8037,7 +8077,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {3, 3, 3},
 		_NeedSkillList = {
-			{SKID.NC_BOOSTKNUCKLE, 2},
+			{SKID.NC_BOOSTKNUCKLE, 2}
 		}
 	},
 
@@ -8049,7 +8089,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {13, 13, 13},
 		_NeedSkillList = {
-			{SKID.NC_BOOSTKNUCKLE, 2},
+			{SKID.NC_BOOSTKNUCKLE, 2}
 		}
 	},
 
@@ -8061,7 +8101,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {5, 5, 5},
 		_NeedSkillList = {
-			{SKID.NC_VULCANARM, 1},
+			{SKID.NC_VULCANARM, 1}
 		}
 	},
 
@@ -8073,7 +8113,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {7, 7, 7},
 		_NeedSkillList = {
-			{SKID.NC_VULCANARM, 3},
+			{SKID.NC_VULCANARM, 3}
 		}
 	},
 
@@ -8086,7 +8126,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 11, 13},
 		_NeedSkillList = {
 			{SKID.NC_FLAMELAUNCHER, 2},
-			{SKID.NC_COLDSLOWER, 2},
+			{SKID.NC_COLDSLOWER, 2}
 		}
 	},
 
@@ -8098,7 +8138,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.NC_MADOLICENCE, 1},
+			{SKID.NC_MADOLICENCE, 1}
 		}
 	},
 
@@ -8110,7 +8150,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.NC_ACCELERATION, 1},
+			{SKID.NC_ACCELERATION, 1}
 		}
 	},
 
@@ -8122,7 +8162,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.NC_HOVERING, 1},
+			{SKID.NC_HOVERING, 1}
 		}
 	},
 
@@ -8134,7 +8174,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.NC_HOVERING, 1},
+			{SKID.NC_HOVERING, 1}
 		}
 	},
 
@@ -8146,7 +8186,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.NC_MADOLICENCE, 4},
+			{SKID.NC_MADOLICENCE, 4}
 		}
 	},
 
@@ -8158,7 +8198,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.NC_MAINFRAME, 2},
+			{SKID.NC_MAINFRAME, 2}
 		}
 	},
 
@@ -8170,7 +8210,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.NC_MAINFRAME, 2},
+			{SKID.NC_MAINFRAME, 2}
 		}
 	},
 
@@ -8182,7 +8222,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.NC_SELFDESTRUCTION, 2},
+			{SKID.NC_SELFDESTRUCTION, 2}
 		}
 	},
 
@@ -8194,7 +8234,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.NC_SHAPESHIFT, 2},
+			{SKID.NC_SHAPESHIFT, 2}
 		}
 	},
 
@@ -8206,7 +8246,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9},
 		_NeedSkillList = {
-			{SKID.NC_INFRAREDSCAN, 1},
+			{SKID.NC_INFRAREDSCAN, 1}
 		}
 	},
 
@@ -8218,7 +8258,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.NC_EMERGENCYCOOL, 1},
+			{SKID.NC_EMERGENCYCOOL, 1}
 		}
 	},
 
@@ -8230,7 +8270,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.NC_MAGNETICFIELD, 2},
+			{SKID.NC_MAGNETICFIELD, 2}
 		}
 	},
 
@@ -8243,7 +8283,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
 			{SKID.NC_ANALYZE, 3},
-			{SKID.NC_NEUTRALBARRIER, 2},
+			{SKID.NC_NEUTRALBARRIER, 2}
 		}
 	},
 
@@ -8255,7 +8295,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {5, 6, 7, 8, 9},
 		_NeedSkillList = {
-			{SKID.NC_MADOLICENCE, 2},
+			{SKID.NC_MADOLICENCE, 2}
 		}
 	},
 
@@ -8285,7 +8325,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {5, 6, 7, 8, 9},
 		_NeedSkillList = {
-			{SKID.NC_TRAININGAXE, 1},
+			{SKID.NC_TRAININGAXE, 1}
 		}
 	},
 
@@ -8297,7 +8337,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.NC_AXEBOOMERANG, 3},
+			{SKID.NC_AXEBOOMERANG, 3}
 		}
 	},
 
@@ -8309,7 +8349,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.NC_TRAININGAXE, 1},
+			{SKID.NC_TRAININGAXE, 1}
 		}
 	},
 
@@ -8321,7 +8361,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {2, 2, 2, 2, 2},
 		_NeedSkillList = {
-			{SKID.NC_RESEARCHFE, 2},
+			{SKID.NC_RESEARCHFE, 2}
 		}
 	},
 
@@ -8333,7 +8373,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {2, 2, 2, 2, 2},
 		_NeedSkillList = {
-			{SKID.NC_SILVERSNIPER, 2},
+			{SKID.NC_SILVERSNIPER, 2}
 		}
 	},
 
@@ -8345,7 +8385,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {5},
 		_NeedSkillList = {
-			{SKID.NC_SILVERSNIPER, 1},
+			{SKID.NC_SILVERSNIPER, 1}
 		}
 	},
 
@@ -8357,7 +8397,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RG_INTIMIDATE, 5},
+			{SKID.RG_INTIMIDATE, 5}
 		}
 	},
 
@@ -8369,7 +8409,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RG_PLAGIARISM, 5},
+			{SKID.RG_PLAGIARISM, 5}
 		}
 	},
 
@@ -8381,7 +8421,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SC_REPRODUCE, 5},
+			{SKID.SC_REPRODUCE, 5}
 		}
 	},
 
@@ -8393,7 +8433,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {5, 5, 5, 5, 5},
 		_NeedSkillList = {
-			{SKID.RG_TUNNELDRIVE, 3},
+			{SKID.RG_TUNNELDRIVE, 3}
 		}
 	},
 
@@ -8405,7 +8445,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {7, 7, 7, 9, 9, 9, 9, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.AC_DOUBLE, 7},
+			{SKID.AC_DOUBLE, 7}
 		}
 	},
 
@@ -8428,7 +8468,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.SC_UNLUCKY, 3},
 			{SKID.SC_AUTOSHADOWSPELL, 7},
-			{SKID.SC_DEADLYINFECT, 5},
+			{SKID.SC_DEADLYINFECT, 5}
 		}
 	},
 
@@ -8441,7 +8481,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.SC_SHADOWFORM, 3},
-			{SKID.SC_AUTOSHADOWSPELL, 5},
+			{SKID.SC_AUTOSHADOWSPELL, 5}
 		}
 	},
 
@@ -8453,7 +8493,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {3, 3, 3},
 		_NeedSkillList = {
-			{SKID.SC_BODYPAINT, 1},
+			{SKID.SC_BODYPAINT, 1}
 		}
 	},
 
@@ -8465,7 +8505,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {3, 3, 3},
 		_NeedSkillList = {
-			{SKID.SC_BODYPAINT, 1},
+			{SKID.SC_BODYPAINT, 1}
 		}
 	},
 
@@ -8477,7 +8517,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {3, 3, 3},
 		_NeedSkillList = {
-			{SKID.SC_BODYPAINT, 1},
+			{SKID.SC_BODYPAINT, 1}
 		}
 	},
 
@@ -8491,7 +8531,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.SC_ENERVATION, 1},
 			{SKID.SC_GROOMY, 1},
-			{SKID.SC_IGNORANCE, 1},
+			{SKID.SC_IGNORANCE, 1}
 		}
 	},
 
@@ -8504,7 +8544,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {3, 3, 3},
 		_NeedSkillList = {
 			{SKID.SC_LAZINESS, 1},
-			{SKID.SC_WEAKNESS, 1},
+			{SKID.SC_WEAKNESS, 1}
 		}
 	},
 
@@ -8518,7 +8558,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.SC_ENERVATION, 1},
 			{SKID.SC_GROOMY, 1},
-			{SKID.SC_IGNORANCE, 1},
+			{SKID.SC_IGNORANCE, 1}
 		}
 	},
 
@@ -8530,7 +8570,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {3, 3, 3, 3, 3},
 		_NeedSkillList = {
-			{SKID.RG_STRIPWEAPON, 1},
+			{SKID.RG_STRIPWEAPON, 1}
 		}
 	},
 
@@ -8542,7 +8582,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {7, 7, 7},
 		_NeedSkillList = {
-			{SKID.RG_FLAGGRAFFITI, 1},
+			{SKID.RG_FLAGGRAFFITI, 1}
 		}
 	},
 
@@ -8554,7 +8594,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {7, 7, 7},
 		_NeedSkillList = {
-			{SKID.SC_MANHOLE, 1},
+			{SKID.SC_MANHOLE, 1}
 		}
 	},
 
@@ -8566,7 +8606,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {7, 7, 7},
 		_NeedSkillList = {
-			{SKID.SC_MANHOLE, 1},
+			{SKID.SC_MANHOLE, 1}
 		}
 	},
 
@@ -8579,7 +8619,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {7, 7, 7},
 		_NeedSkillList = {
 			{SKID.SC_CHAOSPANIC, 3},
-			{SKID.SC_UNLUCKY, 3},
+			{SKID.SC_UNLUCKY, 3}
 		}
 	},
 
@@ -8591,7 +8631,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {7, 7, 7},
 		_NeedSkillList = {
-			{SKID.SC_DIMENSIONDOOR, 3},
+			{SKID.SC_DIMENSIONDOOR, 3}
 		}
 	},
 
@@ -8603,7 +8643,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SC_DIMENSIONDOOR, 3},
+			{SKID.SC_DIMENSIONDOOR, 3}
 		}
 	},
 
@@ -8615,7 +8655,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.LG_PINPOINTATTACK, 1},
+			{SKID.LG_PINPOINTATTACK, 1}
 		}
 	},
 
@@ -8627,7 +8667,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {7, 7, 7, 7, 7, 7, 7, 7, 7, 7},
 		_NeedSkillList = {
-			{SKID.KN_SPEARMASTERY, 1},
+			{SKID.KN_SPEARMASTERY, 1}
 		}
 	},
 
@@ -8648,7 +8688,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.CR_SHIELDCHARGE, 3},
+			{SKID.CR_SHIELDCHARGE, 3}
 		}
 	},
 
@@ -8660,7 +8700,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.CR_REFLECTSHIELD, 5},
+			{SKID.CR_REFLECTSHIELD, 5}
 		}
 	},
 
@@ -8672,7 +8712,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {5, 5, 5, 5, 5},
 		_NeedSkillList = {
-			{SKID.LG_BANISHINGPOINT, 5},
+			{SKID.LG_BANISHINGPOINT, 5}
 		}
 	},
 
@@ -8693,7 +8733,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.LG_FORCEOFVANGUARD, 1},
+			{SKID.LG_FORCEOFVANGUARD, 1}
 		}
 	},
 
@@ -8706,7 +8746,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
 			{SKID.LG_SHIELDPRESS, 3},
-			{SKID.LG_EARTHDRIVE, 2},
+			{SKID.LG_EARTHDRIVE, 2}
 		}
 	},
 
@@ -8718,7 +8758,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.LG_BANISHINGPOINT, 3},
+			{SKID.LG_BANISHINGPOINT, 3}
 		}
 	},
 
@@ -8731,7 +8771,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.LG_MOONSLASHER, 3},
-			{SKID.LG_PINPOINTATTACK, 1},
+			{SKID.LG_PINPOINTATTACK, 1}
 		}
 	},
 
@@ -8743,7 +8783,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.LG_TRAMPLE, 3},
+			{SKID.LG_TRAMPLE, 3}
 		}
 	},
 
@@ -8756,7 +8796,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.LG_PINPOINTATTACK, 3},
-			{SKID.LG_RAGEBURST, 1},
+			{SKID.LG_RAGEBURST, 1}
 		}
 	},
 
@@ -8768,7 +8808,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.KN_SPEARMASTERY, 1},
+			{SKID.KN_SPEARMASTERY, 1}
 		}
 	},
 
@@ -8780,7 +8820,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.CR_GRANDCROSS, 5},
+			{SKID.CR_GRANDCROSS, 5}
 		}
 	},
 
@@ -8792,7 +8832,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.CR_TRUST, 3},
+			{SKID.CR_TRUST, 3}
 		}
 	},
 
@@ -8804,7 +8844,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.LG_REFLECTDAMAGE, 3},
+			{SKID.LG_REFLECTDAMAGE, 3}
 		}
 	},
 
@@ -8817,7 +8857,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {3, 3, 3, 3, 3},
 		_NeedSkillList = {
 			{SKID.LG_PRESTIGE, 3},
-			{SKID.LG_BANDING, 3},
+			{SKID.LG_BANDING, 3}
 		}
 	},
 
@@ -8831,7 +8871,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.LG_PIETY, 5},
 			{SKID.LG_RAYOFGENESIS, 4},
-			{SKID.LG_SHIELDSPELL, 3},
+			{SKID.LG_SHIELDSPELL, 3}
 		}
 	},
 
@@ -8843,7 +8883,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.MO_TRIPLEATTACK, 5},
+			{SKID.MO_TRIPLEATTACK, 5}
 		}
 	},
 
@@ -8855,7 +8895,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SR_DRAGONCOMBO, 3},
+			{SKID.SR_DRAGONCOMBO, 3}
 		}
 	},
 
@@ -8868,7 +8908,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.SR_DRAGONCOMBO, 1},
-			{SKID.SR_CURSEDCIRCLE, 1},
+			{SKID.SR_CURSEDCIRCLE, 1}
 		}
 	},
 
@@ -8880,7 +8920,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SR_DRAGONCOMBO, 1},
+			{SKID.SR_DRAGONCOMBO, 1}
 		}
 	},
 
@@ -8892,7 +8932,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SR_FALLENEMPIRE, 3},
+			{SKID.SR_FALLENEMPIRE, 3}
 		}
 	},
 
@@ -8904,7 +8944,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SR_EARTHSHAKER, 2},
+			{SKID.SR_EARTHSHAKER, 2}
 		}
 	},
 
@@ -8916,7 +8956,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SR_SKYNETBLOW, 1},
+			{SKID.SR_SKYNETBLOW, 1}
 		}
 	},
 
@@ -8929,7 +8969,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.MO_BLADESTOP, 2},
-			{SKID.SR_GENTLETOUCH_QUIET, 2},
+			{SKID.SR_GENTLETOUCH_QUIET, 2}
 		}
 	},
 
@@ -8941,7 +8981,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SR_WINDMILL, 1},
+			{SKID.SR_WINDMILL, 1}
 		}
 	},
 
@@ -8954,7 +8994,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {7, 8, 9, 10, 11},
 		_NeedSkillList = {
 			{SKID.SR_LIGHTNINGWALK, 3},
-			{SKID.SR_RAMPAGEBLASTER, 3},
+			{SKID.SR_RAMPAGEBLASTER, 3}
 		}
 	},
 
@@ -8966,7 +9006,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.SR_CURSEDCIRCLE, 1},
+			{SKID.SR_CURSEDCIRCLE, 1}
 		}
 	},
 
@@ -8979,7 +9019,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.SR_RAMPAGEBLASTER, 3},
-			{SKID.SR_GENTLETOUCH_ENERGYGAIN, 3},
+			{SKID.SR_GENTLETOUCH_ENERGYGAIN, 3}
 		}
 	},
 
@@ -8992,7 +9032,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1},
 		_NeedSkillList = {
 			{SKID.MO_ABSORBSPIRITS, 1},
-			{SKID.SR_POWERVELOCITY, 1},
+			{SKID.SR_POWERVELOCITY, 1}
 		}
 	},
 
@@ -9004,7 +9044,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {3},
 		_NeedSkillList = {
-			{SKID.MO_CALLSPIRITS, 5},
+			{SKID.MO_CALLSPIRITS, 5}
 		}
 	},
 
@@ -9017,7 +9057,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 2, 3, 3, 4, 4, 5, 5, 6, 7},
 		_NeedSkillList = {
 			{SKID.SR_TIGERCANNON, 5},
-			{SKID.SR_RAISINGDRAGON, 5},
+			{SKID.SR_RAISINGDRAGON, 5}
 		}
 	},
 
@@ -9029,7 +9069,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {2, 2, 2, 2, 2},
 		_NeedSkillList = {
-			{SKID.SR_POWERVELOCITY, 1},
+			{SKID.SR_POWERVELOCITY, 1}
 		}
 	},
 
@@ -9041,7 +9081,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {2, 2, 2, 2, 2},
 		_NeedSkillList = {
-			{SKID.SR_POWERVELOCITY, 1},
+			{SKID.SR_POWERVELOCITY, 1}
 		}
 	},
 
@@ -9053,7 +9093,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SR_GENTLETOUCH_QUIET, 3},
+			{SKID.SR_GENTLETOUCH_QUIET, 3}
 		}
 	},
 
@@ -9065,7 +9105,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {2, 2, 2, 2, 2},
 		_NeedSkillList = {
-			{SKID.SR_GENTLETOUCH_CURE, 4},
+			{SKID.SR_GENTLETOUCH_CURE, 4}
 		}
 	},
 
@@ -9077,7 +9117,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {2, 2, 2, 2, 2},
 		_NeedSkillList = {
-			{SKID.SR_GENTLETOUCH_CHANGE, 5},
+			{SKID.SR_GENTLETOUCH_CHANGE, 5}
 		}
 	},
 
@@ -9089,7 +9129,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.WM_LULLABY_DEEPSLEEP, 1},
+			{SKID.WM_LULLABY_DEEPSLEEP, 1}
 		}
 	},
 
@@ -9101,7 +9141,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.WM_LULLABY_DEEPSLEEP, 1},
+			{SKID.WM_LULLABY_DEEPSLEEP, 1}
 		}
 	},
 
@@ -9113,7 +9153,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.WM_LULLABY_DEEPSLEEP, 1},
+			{SKID.WM_LULLABY_DEEPSLEEP, 1}
 		}
 	},
 
@@ -9125,7 +9165,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.WM_LULLABY_DEEPSLEEP, 1},
+			{SKID.WM_LULLABY_DEEPSLEEP, 1}
 		}
 	},
 
@@ -9137,7 +9177,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.WM_LULLABY_DEEPSLEEP, 1},
+			{SKID.WM_LULLABY_DEEPSLEEP, 1}
 		}
 	},
 
@@ -9149,7 +9189,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.WM_LULLABY_DEEPSLEEP, 1},
+			{SKID.WM_LULLABY_DEEPSLEEP, 1}
 		}
 	},
 
@@ -9170,7 +9210,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.WM_DOMINION_IMPULSE, 1},
+			{SKID.WM_DOMINION_IMPULSE, 1}
 		}
 	},
 
@@ -9183,11 +9223,11 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		NeedSkillList = {
 			[JOBID.JT_MINSTREL] = {
-				{SKID.BA_DISSONANCE, 5},
+				{SKID.BA_DISSONANCE, 5}
 			},
 			[JOBID.JT_WANDERER] = {
-				{SKID.DC_UGLYDANCE, 5},
-			},
+				{SKID.DC_UGLYDANCE, 5}
+			}
 		}
 	},
 
@@ -9199,7 +9239,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {11},
 		_NeedSkillList = {
-			{SKID.WM_REVERBERATION, 1},
+			{SKID.WM_REVERBERATION, 1}
 		}
 	},
 
@@ -9212,11 +9252,11 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		NeedSkillList = {
 			[JOBID.JT_MINSTREL] = {
-				{SKID.BA_MUSICALSTRIKE, 5},
+				{SKID.BA_MUSICALSTRIKE, 5}
 			},
 			[JOBID.JT_WANDERER] = {
-				{SKID.DC_THROWARROW, 5},
-			},
+				{SKID.DC_THROWARROW, 5}
+			}
 		}
 	},
 
@@ -9228,7 +9268,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.WM_LESSON, 1},
+			{SKID.WM_LESSON, 1}
 		}
 	},
 
@@ -9240,7 +9280,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.WM_POEMOFNETHERWORLD, 3},
+			{SKID.WM_POEMOFNETHERWORLD, 3}
 		}
 	},
 
@@ -9252,7 +9292,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {7, 7, 7, 7, 7},
 		_NeedSkillList = {
-			{SKID.WM_SIRCLEOFNATURE, 3},
+			{SKID.WM_SIRCLEOFNATURE, 3}
 		}
 	},
 
@@ -9264,7 +9304,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.WM_LESSON, 1},
+			{SKID.WM_LESSON, 1}
 		}
 	},
 
@@ -9276,7 +9316,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.WM_LESSON, 1},
+			{SKID.WM_LESSON, 1}
 		}
 	},
 
@@ -9288,7 +9328,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.WM_POEMOFNETHERWORLD, 1},
+			{SKID.WM_POEMOFNETHERWORLD, 1}
 		}
 	},
 
@@ -9300,7 +9340,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.WM_RANDOMIZESPELL, 1},
+			{SKID.WM_RANDOMIZESPELL, 1}
 		}
 	},
 
@@ -9312,7 +9352,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.WM_METALICSOUND, 1},
+			{SKID.WM_METALICSOUND, 1}
 		}
 	},
 
@@ -9327,13 +9367,13 @@ SKILL_INFO_LIST = {
 			[JOBID.JT_MINSTREL] = {
 				{SKID.MI_HARMONIZE, 1},
 				{SKID.MI_RUSH_WINDMILL, 1},
-				{SKID.MI_ECHOSONG, 1},
+				{SKID.MI_ECHOSONG, 1}
 			},
 			[JOBID.JT_WANDERER] = {
 				{SKID.WA_SWING_DANCE, 1},
 				{SKID.WA_SYMPHONY_OF_LOVER, 1},
-				{SKID.WA_MOONLIT_SERENADE, 1},
-			},
+				{SKID.WA_MOONLIT_SERENADE, 1}
+			}
 		}
 	},
 
@@ -9348,13 +9388,13 @@ SKILL_INFO_LIST = {
 			[JOBID.JT_MINSTREL] = {
 				{SKID.MI_HARMONIZE, 1},
 				{SKID.MI_RUSH_WINDMILL, 1},
-				{SKID.MI_ECHOSONG, 1},
+				{SKID.MI_ECHOSONG, 1}
 			},
 			[JOBID.JT_WANDERER] = {
 				{SKID.WA_SWING_DANCE, 1},
 				{SKID.WA_SYMPHONY_OF_LOVER, 1},
-				{SKID.WA_MOONLIT_SERENADE, 1},
-			},
+				{SKID.WA_MOONLIT_SERENADE, 1}
+			}
 		}
 	},
 
@@ -9367,7 +9407,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.WM_SATURDAY_NIGHT_FEVER, 3},
-			{SKID.WM_MELODYOFSINK, 3},
+			{SKID.WM_MELODYOFSINK, 3}
 		}
 	},
 
@@ -9379,7 +9419,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.WM_DANCE_WITH_WUG, 1},
+			{SKID.WM_DANCE_WITH_WUG, 1}
 		}
 	},
 
@@ -9394,13 +9434,13 @@ SKILL_INFO_LIST = {
 			[JOBID.JT_MINSTREL] = {
 				{SKID.MI_HARMONIZE, 1},
 				{SKID.MI_RUSH_WINDMILL, 1},
-				{SKID.MI_ECHOSONG, 1},
+				{SKID.MI_ECHOSONG, 1}
 			},
 			[JOBID.JT_WANDERER] = {
 				{SKID.WA_SWING_DANCE, 1},
 				{SKID.WA_SYMPHONY_OF_LOVER, 1},
-				{SKID.WA_MOONLIT_SERENADE, 1},
-			},
+				{SKID.WA_MOONLIT_SERENADE, 1}
+			}
 		}
 	},
 
@@ -9412,7 +9452,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.WM_SONG_OF_MANA, 1},
+			{SKID.WM_SONG_OF_MANA, 1}
 		}
 	},
 
@@ -9424,7 +9464,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.WM_LERADS_DEW, 1},
+			{SKID.WM_LERADS_DEW, 1}
 		}
 	},
 
@@ -9437,7 +9477,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.WM_BEYOND_OF_WARCRY, 1},
-			{SKID.WM_SOUND_OF_DESTRUCTION, 1},
+			{SKID.WM_SOUND_OF_DESTRUCTION, 1}
 		}
 	},
 
@@ -9449,7 +9489,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SA_VOLCANO, 1},
+			{SKID.SA_VOLCANO, 1}
 		}
 	},
 
@@ -9461,7 +9501,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SA_VIOLENTGALE, 1},
+			{SKID.SA_VIOLENTGALE, 1}
 		}
 	},
 
@@ -9473,7 +9513,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SA_AUTOSPELL, 4},
+			{SKID.SA_AUTOSPELL, 4}
 		}
 	},
 
@@ -9485,7 +9525,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.WZ_EARTHSPIKE, 5},
+			{SKID.WZ_EARTHSPIKE, 5}
 		}
 	},
 
@@ -9497,7 +9537,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SA_DELUGE, 3},
+			{SKID.SA_DELUGE, 3}
 		}
 	},
 
@@ -9509,7 +9549,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SO_CLOUD_KILL, 2},
+			{SKID.SO_CLOUD_KILL, 2}
 		}
 	},
 
@@ -9521,7 +9561,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SA_DISPELL, 2},
+			{SKID.SA_DISPELL, 2}
 		}
 	},
 
@@ -9533,7 +9573,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.WZ_HEAVENDRIVE, 5},
+			{SKID.WZ_HEAVENDRIVE, 5}
 		}
 	},
 
@@ -9548,7 +9588,7 @@ SKILL_INFO_LIST = {
 			{SKID.SA_FLAMELAUNCHER, 1},
 			{SKID.SA_FROSTWEAPON, 1},
 			{SKID.SA_LIGHTNINGLOADER, 1},
-			{SKID.SA_SEISMICWEAPON, 1},
+			{SKID.SA_SEISMICWEAPON, 1}
 		}
 	},
 
@@ -9561,7 +9601,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.SA_VOLCANO, 1},
-			{SKID.SA_VIOLENTGALE, 1},
+			{SKID.SA_VIOLENTGALE, 1}
 		}
 	},
 
@@ -9573,7 +9613,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SA_LANDPROTECTOR, 2},
+			{SKID.SA_LANDPROTECTOR, 2}
 		}
 	},
 
@@ -9586,7 +9626,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.SA_SEISMICWEAPON, 1},
-			{SKID.SA_VIOLENTGALE, 4},
+			{SKID.SA_VIOLENTGALE, 4}
 		}
 	},
 
@@ -9598,7 +9638,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {7, 7, 7, 7, 9},
 		_NeedSkillList = {
-			{SKID.SO_WARMER, 2},
+			{SKID.SO_WARMER, 2}
 		}
 	},
 
@@ -9610,7 +9650,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SO_EL_ANALYSIS, 1},
+			{SKID.SO_EL_ANALYSIS, 1}
 		}
 	},
 
@@ -9623,7 +9663,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
 			{SKID.SO_EL_CONTROL, 1},
-			{SKID.SO_WARMER, 3},
+			{SKID.SO_WARMER, 3}
 		}
 	},
 
@@ -9636,7 +9676,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
 			{SKID.SO_EL_CONTROL, 1},
-			{SKID.SO_DIAMONDDUST, 3},
+			{SKID.SO_DIAMONDDUST, 3}
 		}
 	},
 
@@ -9649,7 +9689,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
 			{SKID.SO_EL_CONTROL, 1},
-			{SKID.SO_VARETYR_SPEAR, 3},
+			{SKID.SO_VARETYR_SPEAR, 3}
 		}
 	},
 
@@ -9662,7 +9702,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1},
 		_NeedSkillList = {
 			{SKID.SO_EL_CONTROL, 1},
-			{SKID.SO_EARTHGRAVE, 3},
+			{SKID.SO_EARTHGRAVE, 3}
 		}
 	},
 
@@ -9674,7 +9714,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {5},
 		_NeedSkillList = {
-			{SKID.SO_EL_CONTROL, 3},
+			{SKID.SO_EL_CONTROL, 3}
 		}
 	},
 
@@ -9689,7 +9729,7 @@ SKILL_INFO_LIST = {
 			{SKID.SA_FLAMELAUNCHER, 1},
 			{SKID.SA_FROSTWEAPON, 1},
 			{SKID.SA_LIGHTNINGLOADER, 1},
-			{SKID.SA_SEISMICWEAPON, 1},
+			{SKID.SA_SEISMICWEAPON, 1}
 		}
 	},
 
@@ -9701,7 +9741,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SO_EL_CONTROL, 3},
+			{SKID.SO_EL_CONTROL, 3}
 		}
 	},
 
@@ -9713,7 +9753,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.SO_EL_SYMPATHY, 1},
+			{SKID.SO_EL_SYMPATHY, 1}
 		}
 	},
 
@@ -9725,7 +9765,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SO_SUMMON_AGNI, 3},
+			{SKID.SO_SUMMON_AGNI, 3}
 		}
 	},
 
@@ -9737,7 +9777,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SO_SUMMON_AQUA, 3},
+			{SKID.SO_SUMMON_AQUA, 3}
 		}
 	},
 
@@ -9749,7 +9789,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SO_SUMMON_VENTUS, 3},
+			{SKID.SO_SUMMON_VENTUS, 3}
 		}
 	},
 
@@ -9761,7 +9801,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9},
 		_NeedSkillList = {
-			{SKID.SO_SUMMON_TERA, 3},
+			{SKID.SO_SUMMON_TERA, 3}
 		}
 	},
 
@@ -9791,7 +9831,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.GN_REMODELING_CART, 1},
+			{SKID.GN_REMODELING_CART, 1}
 		}
 	},
 
@@ -9803,7 +9843,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {7, 8, 9, 10, 11},
 		_NeedSkillList = {
-			{SKID.GN_REMODELING_CART, 2},
+			{SKID.GN_REMODELING_CART, 2}
 		}
 	},
 
@@ -9815,7 +9855,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.GN_REMODELING_CART, 3},
+			{SKID.GN_REMODELING_CART, 3}
 		}
 	},
 
@@ -9827,7 +9867,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.GN_S_PHARMACY, 2},
+			{SKID.GN_S_PHARMACY, 2}
 		}
 	},
 
@@ -9839,7 +9879,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.GN_S_PHARMACY, 3},
+			{SKID.GN_S_PHARMACY, 3}
 		}
 	},
 
@@ -9851,7 +9891,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.GN_S_PHARMACY, 4},
+			{SKID.GN_S_PHARMACY, 4}
 		}
 	},
 
@@ -9863,7 +9903,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.GN_THORNS_TRAP, 3},
+			{SKID.GN_THORNS_TRAP, 3}
 		}
 	},
 
@@ -9875,7 +9915,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11, 11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.GN_WALLOFTHORN, 3},
+			{SKID.GN_WALLOFTHORN, 3}
 		}
 	},
 
@@ -9887,7 +9927,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.GN_SPORE_EXPLOSION, 3},
+			{SKID.GN_SPORE_EXPLOSION, 3}
 		}
 	},
 
@@ -9899,7 +9939,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.GN_DEMONIC_FIRE, 3},
+			{SKID.GN_DEMONIC_FIRE, 3}
 		}
 	},
 
@@ -9911,7 +9951,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.GN_BLOOD_SUCKER, 3},
+			{SKID.GN_BLOOD_SUCKER, 3}
 		}
 	},
 
@@ -9923,7 +9963,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.GN_HELLS_PLANT, 3},
+			{SKID.GN_HELLS_PLANT, 3}
 		}
 	},
 
@@ -9935,7 +9975,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {11},
 		_NeedSkillList = {
-			{SKID.GN_CHANGEMATERIAL, 1},
+			{SKID.GN_CHANGEMATERIAL, 1}
 		}
 	},
 
@@ -9956,7 +9996,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1},
 		_NeedSkillList = {
-			{SKID.GN_S_PHARMACY, 1},
+			{SKID.GN_S_PHARMACY, 1}
 		}
 	},
 
@@ -9968,7 +10008,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1},
 		_NeedSkillList = {
-			{SKID.GN_MIX_COOKING, 1},
+			{SKID.GN_MIX_COOKING, 1}
 		}
 	},
 
@@ -9990,7 +10030,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
 			{SKID.AB_EXPIATIO, 1},
-			{SKID.AB_EPICLESIS, 1},
+			{SKID.AB_EPICLESIS, 1}
 		}
 	},
 
@@ -10003,7 +10043,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.SR_RIDEINLIGHTNING, 3},
-			{SKID.SR_ASSIMILATEPOWER, 1},
+			{SKID.SR_ASSIMILATEPOWER, 1}
 		}
 	},
 
@@ -10015,7 +10055,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.MO_FINGEROFFENSIVE, 3},
+			{SKID.MO_FINGEROFFENSIVE, 3}
 		}
 	},
 
@@ -10081,7 +10121,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1},
 		_NeedSkillList = {
-			{SKID.NJ_KIRIKAGE, 5},
+			{SKID.NJ_KIRIKAGE, 5}
 		}
 	},
 
@@ -10111,7 +10151,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {3, 4, 5, 6, 7},
 		_NeedSkillList = {
-			{SKID.KO_YAMIKUMO, 1},
+			{SKID.KO_YAMIKUMO, 1}
 		}
 	},
 
@@ -10123,7 +10163,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {2, 2, 2, 2, 2},
 		_NeedSkillList = {
-			{SKID.KO_JYUMONJIKIRI, 2},
+			{SKID.KO_JYUMONJIKIRI, 2}
 		}
 	},
 
@@ -10135,7 +10175,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {7, 8, 9, 10, 11},
 		_NeedSkillList = {
-			{SKID.NJ_KUNAI, 5},
+			{SKID.NJ_KUNAI, 5}
 		}
 	},
 
@@ -10147,7 +10187,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.KO_BAKURETSU, 1},
+			{SKID.KO_BAKURETSU, 1}
 		}
 	},
 
@@ -10159,7 +10199,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {11, 11, 11, 11, 11, 11, 11, 11, 11, 11},
 		_NeedSkillList = {
-			{SKID.KO_MAKIBISHI, 3},
+			{SKID.KO_MAKIBISHI, 3}
 		}
 	},
 
@@ -10171,7 +10211,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 10, 11, 12, 13},
 		_NeedSkillList = {
-			{SKID.NJ_HUUMA, 5},
+			{SKID.NJ_HUUMA, 5}
 		}
 	},
 
@@ -10183,7 +10223,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {7, 7, 7, 7, 7},
 		_NeedSkillList = {
-			{SKID.NJ_ZENYNAGE, 1},
+			{SKID.NJ_ZENYNAGE, 1}
 		}
 	},
 
@@ -10195,7 +10235,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.NJ_NINPOU, 10},
+			{SKID.NJ_NINPOU, 10}
 		}
 	},
 
@@ -10207,7 +10247,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.NJ_UTSUSEMI, 1},
+			{SKID.NJ_UTSUSEMI, 1}
 		}
 	},
 
@@ -10219,7 +10259,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {5, 5, 5, 5, 5},
 		_NeedSkillList = {
-			{SKID.KO_GENWAKU, 2},
+			{SKID.KO_GENWAKU, 2}
 		}
 	},
 
@@ -10231,7 +10271,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {5, 5, 5, 5, 5},
 		_NeedSkillList = {
-			{SKID.KO_KYOUGAKU, 3},
+			{SKID.KO_KYOUGAKU, 3}
 		}
 	},
 
@@ -10282,7 +10322,7 @@ SKILL_INFO_LIST = {
 			{SKID.KO_KAHU_ENTEN, 1},
 			{SKID.KO_HYOUHU_HUBUKI, 1},
 			{SKID.KO_KAZEHU_SEIRAN, 1},
-			{SKID.KO_DOHU_KOUKAI, 1},
+			{SKID.KO_DOHU_KOUKAI, 1}
 		}
 	},
 
@@ -10295,7 +10335,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1},
 		_NeedSkillList = {
 			{SKID.KO_KAIHOU, 1},
-			{SKID.KO_IZAYOI, 1},
+			{SKID.KO_IZAYOI, 1}
 		}
 	},
 
@@ -10307,7 +10347,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {5, 6, 7, 8, 9},
 		_NeedSkillList = {
-			{SKID.NJ_UTSUSEMI, 1},
+			{SKID.NJ_UTSUSEMI, 1}
 		}
 	},
 
@@ -10319,7 +10359,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.NJ_NINPOU, 5},
+			{SKID.NJ_NINPOU, 5}
 		}
 	},
 
@@ -10331,7 +10371,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {5, 7, 9, 11, 13},
 		_NeedSkillList = {
-			{SKID.KO_ZANZOU, 1},
+			{SKID.KO_ZANZOU, 1}
 		}
 	},
 
@@ -10343,7 +10383,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.KG_KAGEHUMI, 2},
+			{SKID.KG_KAGEHUMI, 2}
 		}
 	},
 
@@ -10355,7 +10395,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.KG_KYOMU, 3},
+			{SKID.KG_KYOMU, 3}
 		}
 	},
 
@@ -10367,7 +10407,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {7, 7, 7, 7, 7},
 		_NeedSkillList = {
-			{SKID.KO_GENWAKU, 1},
+			{SKID.KO_GENWAKU, 1}
 		}
 	},
 
@@ -10379,7 +10419,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {7, 7, 7, 7, 7},
 		_NeedSkillList = {
-			{SKID.OB_AKAITSUKI, 3},
+			{SKID.OB_AKAITSUKI, 3}
 		}
 	},
 
@@ -10391,7 +10431,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {7, 7, 7, 7, 7},
 		_NeedSkillList = {
-			{SKID.OB_ZANGETSU, 2},
+			{SKID.OB_ZANGETSU, 2}
 		}
 	},
 
@@ -10448,7 +10488,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.GC_DARKILLUSION, 5},
+			{SKID.GC_DARKILLUSION, 5}
 		}
 	},
 
@@ -10460,7 +10500,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.RA_FEARBREEZE, 5},
+			{SKID.RA_FEARBREEZE, 5}
 		}
 	},
 
@@ -10472,7 +10512,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {7, 7, 7, 7, 7},
 		_NeedSkillList = {
-			{SKID.GN_S_PHARMACY, 1},
+			{SKID.GN_S_PHARMACY, 1}
 		}
 	},
 
@@ -10484,7 +10524,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		_NeedSkillList = {
-			{SKID.RK_DRAGONTRAINING, 2},
+			{SKID.RK_DRAGONTRAINING, 2}
 		}
 	},
 
@@ -10496,7 +10536,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.NC_RESEARCHFE, 1},
+			{SKID.NC_RESEARCHFE, 1}
 		}
 	},
 
@@ -10508,7 +10548,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.WM_LESSON, 2},
+			{SKID.WM_LESSON, 2}
 		}
 	},
 
@@ -10520,7 +10560,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SO_EL_CONTROL, 3},
+			{SKID.SO_EL_CONTROL, 3}
 		}
 	},
 
@@ -10535,7 +10575,7 @@ SKILL_INFO_LIST = {
 			{SKID.SR_DRAGONCOMBO, 3},
 			{SKID.SR_FALLENEMPIRE, 3},
 			{SKID.SR_SKYNETBLOW, 1},
-			{SKID.SR_TIGERCANNON, 1},
+			{SKID.SR_TIGERCANNON, 1}
 		}
 	},
 
@@ -10547,7 +10587,7 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.SC_TRIANGLESHOT, 2},
+			{SKID.SC_TRIANGLESHOT, 2}
 		}
 	},
 
@@ -10559,19 +10599,19 @@ SKILL_INFO_LIST = {
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.AB_HIGHNESSHEAL, 2},
+			{SKID.AB_HIGHNESSHEAL, 2}
 		}
 	},
 
 	[SKID.WL_TELEKINESIS_INTENSE] = {
 		"WL_TELEKINESIS_INTENSE";
-		SkillName = "Ç¿Äî´«¶¯",
+		SkillName = "ÖÕ¼«ÄîÁ¦",
 		MaxLv = 5,
 		SpAmount = {100, 150, 200, 250, 300},
 		bSeperateLv = true,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.WL_SOULEXPANSION, 5},
+			{SKID.WL_SOULEXPANSION, 5}
 		}
 	},
 
@@ -10583,13 +10623,13 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = {1, 1, 1, 1, 1},
 		_NeedSkillList = {
-			{SKID.LG_REFLECTDAMAGE, 5},
+			{SKID.LG_REFLECTDAMAGE, 5}
 		}
 	},
 
 	[SKID.ALL_FULL_THROTTLE] = {
 		"ALL_FULL_THROTTLE";
-		SkillName = "È«Á¦¼¤·¢",
+		SkillName = "ÁÒ»ðÕ½³µ",
 		MaxLv = 5,
 		SpAmount = {1, 1, 1, 1, 1},
 		bSeperateLv = true,
