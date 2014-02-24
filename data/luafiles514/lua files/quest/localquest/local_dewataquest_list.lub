@@ -2,7 +2,7 @@
 -- Command line was: local_dewataquest_list.lub 
 
 LOCAL_DewataQuest_List = {
-{name = "德", imagefile = "ep_test_sample.bmp", 
+{name = "德瓦他", imagefile = "ep_test_sample.bmp", 
 list = {
 {name = "传统饮料!!", 
 list = {
