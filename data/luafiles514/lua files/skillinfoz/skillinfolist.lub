@@ -10079,7 +10079,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.ALL_BUYING_STORE] = {
 		"ALL_BUYING_STORE";
-		SkillName = "开设购买商店 (BUYING STORE)",
+		SkillName = "采购商店",
 		MaxLv = 2,
 		SpAmount = {30, 30},
 		bSeperateLv = false,
