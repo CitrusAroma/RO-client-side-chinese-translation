@@ -735,7 +735,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.PR_MACEMASTERY] = {
 		"PR_MACEMASTERY";
-		SkillName = "权杖使用熟练度",
+		SkillName = "钝器使用熟练度",
 		MaxLv = 10,
 		SpAmount = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 		bSeperateLv = false,
@@ -778,7 +778,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.PR_BENEDICTIO] = {
 		"PR_BENEDICTIO";
-		SkillName = "圣之祈福",
+		SkillName = "圣体降福",
 		MaxLv = 5,
 		SpAmount = {20, 20, 20, 20, 20},
 		bSeperateLv = false,
@@ -6814,7 +6814,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.PR_REDEMPTIO] = {
 		"PR_REDEMPTIO";
-		SkillName = "舍身取义",
+		SkillName = "救赎",
 		MaxLv = 1,
 		SpAmount = {400},
 		bSeperateLv = false,
