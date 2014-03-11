@@ -6742,7 +6742,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.WZ_SIGHTBLASTER] = {
 		"WZ_SIGHTBLASTER";
-		SkillName = "»παχΡΏ",
+		SkillName = "»παχ³ε»χ",
 		MaxLv = 1,
 		SpAmount = {40},
 		bSeperateLv = false,
