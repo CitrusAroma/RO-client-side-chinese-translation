@@ -1144,7 +1144,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.BS_SWORD] = {
 		"BS_SWORD";
-		SkillName = "剑制作",
+		SkillName = "单手剑制作",
 		MaxLv = 3,
 		SpAmount = {0, 0, 0},
 		bSeperateLv = false,
@@ -1180,7 +1180,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.BS_MACE] = {
 		"BS_MACE";
-		SkillName = "权杖制作",
+		SkillName = "钝器制作",
 		MaxLv = 3,
 		SpAmount = {0, 0, 0},
 		bSeperateLv = false,
@@ -1280,7 +1280,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.BS_ADRENALINE] = {
 		"BS_ADRENALINE";
-		SkillName = "所有速度激发",
+		SkillName = "速度激发",
 		MaxLv = 5,
 		SpAmount = {20, 23, 26, 29, 32},
 		bSeperateLv = true,
@@ -6796,7 +6796,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.BS_UNFAIRLYTRICK] = {
 		"BS_UNFAIRLYTRICK";
-		SkillName = "诡计的商术",
+		SkillName = "不正当的手段",
 		MaxLv = 1,
 		SpAmount = {0},
 		bSeperateLv = false,
