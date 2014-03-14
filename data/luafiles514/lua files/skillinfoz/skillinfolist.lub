@@ -6769,7 +6769,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.HT_PHANTASMIC] = {
 		"HT_PHANTASMIC";
-		SkillName = "»ÃÓ°¼ý",
+		SkillName = "»Ã¼ý",
 		MaxLv = 1,
 		SpAmount = {10},
 		bSeperateLv = false,
