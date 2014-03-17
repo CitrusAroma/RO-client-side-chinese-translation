@@ -6715,7 +6715,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.AS_SONICACCEL] = {
 		"AS_SONICACCEL";
-		SkillName = "超音速投掷",
+		SkillName = "音速投掷加速",
 		MaxLv = 1,
 		SpAmount = {0},
 		bSeperateLv = false,
@@ -6724,7 +6724,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.AS_VENOMKNIFE] = {
 		"AS_VENOMKNIFE";
-		SkillName = "毒刃",
+		SkillName = "剧毒短刀",
 		MaxLv = 1,
 		SpAmount = {15},
 		bSeperateLv = false,
@@ -8132,7 +8132,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.NC_ACCELERATION] = {
 		"NC_ACCELERATION";
-		SkillName = "超音速投掷",
+		SkillName = "音速投掷加速",
 		MaxLv = 3,
 		SpAmount = {20, 40, 60},
 		bSeperateLv = true,
