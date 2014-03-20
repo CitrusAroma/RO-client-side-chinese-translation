@@ -6733,7 +6733,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.RG_CLOSECONFINE] = {
 		"RG_CLOSECONFINE";
-		SkillName = "½ôÃÜµÄÔ¼Êø",
+		SkillName = "ÇÜÄÃ",
 		MaxLv = 1,
 		SpAmount = {25},
 		bSeperateLv = false,
