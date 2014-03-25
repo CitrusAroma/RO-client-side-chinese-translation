@@ -1990,7 +1990,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.AM_AXEMASTERY] = {
 		"AM_AXEMASTERY";
-		SkillName = "斧头锻炼",
+		SkillName = "斧头使用熟练度",
 		MaxLv = 10,
 		SpAmount = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 		bSeperateLv = false,
@@ -1999,7 +1999,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.AM_LEARNINGPOTION] = {
 		"AM_LEARNINGPOTION";
-		SkillName = "知识药水",
+		SkillName = "药水知识",
 		MaxLv = 10,
 		SpAmount = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 		bSeperateLv = false,
