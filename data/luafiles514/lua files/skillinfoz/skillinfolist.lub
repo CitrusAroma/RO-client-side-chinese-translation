@@ -2480,7 +2480,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.MO_BLADESTOP] = {
 		"MO_BLADESTOP";
-		SkillName = "?剑百破道",
+		SkillName = "真剑百破道",
 		MaxLv = 5,
 		SpAmount = {10, 10, 10, 10, 10},
 		bSeperateLv = false,
@@ -6832,7 +6832,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.MO_BALKYOUNG] = {
 		"MO_BALKYOUNG";
-		SkillName = "发劲",
+		SkillName = "气爆散",
 		MaxLv = 1,
 		SpAmount = {20},
 		bSeperateLv = false,
