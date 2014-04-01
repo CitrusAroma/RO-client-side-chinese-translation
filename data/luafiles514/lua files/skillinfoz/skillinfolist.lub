@@ -2610,7 +2610,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.SA_FLAMELAUNCHER] = {
 		"SA_FLAMELAUNCHER";
-		SkillName = "火焰喷射器",
+		SkillName = "火属性附加",
 		MaxLv = 5,
 		SpAmount = {40, 40, 40, 40, 40},
 		bSeperateLv = false,
@@ -2750,7 +2750,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.SA_MONOCELL] = {
 		"SA_MONOCELL";
-		SkillName = "变换成波利",
+		SkillName = "变成波利",
 		MaxLv = 10,
 		SpAmount = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 		bSeperateLv = false,
@@ -2759,7 +2759,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.SA_CLASSCHANGE] = {
 		"SA_CLASSCHANGE";
-		SkillName = "变换成Boss级魔物",
+		SkillName = "变成Boss级怪物",
 		MaxLv = 10,
 		SpAmount = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 		bSeperateLv = false,
@@ -2768,7 +2768,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.SA_SUMMONMONSTER] = {
 		"SA_SUMMONMONSTER";
-		SkillName = "召唤魔物",
+		SkillName = "召唤怪物",
 		MaxLv = 10,
 		SpAmount = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 		bSeperateLv = false,
@@ -2786,7 +2786,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.SA_DEATH] = {
 		"SA_DEATH";
-		SkillName = "死身",
+		SkillName = "即死术",
 		MaxLv = 10,
 		SpAmount = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 		bSeperateLv = false,
@@ -2795,7 +2795,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.SA_FORTUNE] = {
 		"SA_FORTUNE";
-		SkillName = "宿命",
+		SkillName = "致富术",
 		MaxLv = 10,
 		SpAmount = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 		bSeperateLv = false,
@@ -2813,7 +2813,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.SA_QUESTION] = {
 		"SA_QUESTION";
-		SkillName = "SA_QUESTION",
+		SkillName = "疑问",
 		MaxLv = 10,
 		SpAmount = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 		bSeperateLv = false,
@@ -2840,7 +2840,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.SA_INSTANTDEATH] = {
 		"SA_INSTANTDEATH";
-		SkillName = "当场死亡",
+		SkillName = "自杀",
 		MaxLv = 10,
 		SpAmount = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 		bSeperateLv = false,
@@ -6751,7 +6751,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.SA_CREATECON] = {
 		"SA_CREATECON";
-		SkillName = "元素肯贝特 制作",
+		SkillName = "属性卷轴制作",
 		MaxLv = 1,
 		SpAmount = {30},
 		bSeperateLv = false,
@@ -6760,7 +6760,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.SA_ELEMENTWATER] = {
 		"SA_ELEMENTWATER";
-		SkillName = "元素更换(水)",
+		SkillName = "水属性转换",
 		MaxLv = 1,
 		SpAmount = {30},
 		bSeperateLv = false,
@@ -6841,7 +6841,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.SA_ELEMENTGROUND] = {
 		"SA_ELEMENTGROUND";
-		SkillName = "元素更换(地)",
+		SkillName = "地属性转换",
 		MaxLv = 1,
 		SpAmount = {30},
 		bSeperateLv = false,
@@ -6850,7 +6850,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.SA_ELEMENTFIRE] = {
 		"SA_ELEMENTFIRE";
-		SkillName = "元素更换(火)",
+		SkillName = "火属性转换",
 		MaxLv = 1,
 		SpAmount = {30},
 		bSeperateLv = false,
@@ -6859,7 +6859,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.SA_ELEMENTWIND] = {
 		"SA_ELEMENTWIND";
-		SkillName = "元素更换(风)",
+		SkillName = "风属性转换",
 		MaxLv = 1,
 		SpAmount = {30},
 		bSeperateLv = false,
