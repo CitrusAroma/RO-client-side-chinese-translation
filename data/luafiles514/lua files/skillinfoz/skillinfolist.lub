@@ -6778,7 +6778,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.BA_PANGVOICE] = {
 		"BA_PANGVOICE";
-		SkillName = "еѓЭДжЎЩљ",
+		SkillName = "ПрЭДжЎвє",
 		MaxLv = 1,
 		SpAmount = {20},
 		bSeperateLv = false,
