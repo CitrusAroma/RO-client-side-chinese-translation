@@ -792,7 +792,7 @@ Unable to connect Findhack Update Server. Please try again or contact the custom
 ÎÒÊÇ³¬¼¶³õÑ§Õß#
 à¡~#
 °ï°ïÎÒ°É~#
-ÓÐÈËÑûÇëÄúÁìÑø, ÇëÎÊÄúÒª´ðÓ¦Âð?#
+ÏëÒªÁìÑøÄã, ÇëÎÊÄãÒªÍ¬ÒâÂð?#
                  °´×¡Z~>¼ü, ¿ÉÒÔÊ¹ÓÃ¼¼ÄÜ¿ì½Ý¹¤¾ßÀ¸1µÄ¼¼ÄÜ. On/Off#
                  °´Ò»´ÎEnter¼ü, ÊäÈëÎÄ×ÖÖ®ºó¾Í¿ÉÒÔÁÄÌì.#
 Ã»ÓÐÓÎÏ·±£»¤³ÌÐò»òÊÇÒÑ±»Î±ÔìÁË, ÇëÖØÐÂ°²×°Ö´ÐÐÓÎÏ·±£»¤³ÌÐò.#
@@ -885,8 +885,8 @@ Game  Guard Éý¼¶, »òÊÇ²¡¶¾ºÍspyware³åÍ»µ¼ÖÂÊ§°Ü, ÇëÊ¹ÓÃ·À¶¾ÈíÌå/ spyware °Ñ²¡¶¾½
 Ìú½³#
 ÁÔÈË#
 ´Ì¿Í#
-°Ñ[%s], ÑûÇëÎªÁìÑøÐ¡º¢#
-±ä³ÉÐ¡º¢µÄ»°²»ÄÜ×ªÉú, ÈËÎïÊôÐÔÖµÎÞ·¨³¬¹ý80,  HP/SPÒ²»á´ó·ù¼õÉÙ,  ÕâÑùÒ²¿ÉÒÔ½ÓÊÜÂð?#
+ÁìÑø[%s]ÎªÑø×Ó#
+³ÉÎªÑø×Óºó²»ÄÜ×ªÉú, ÈËÎïÊôÐÔÖµÎÞ·¨³¬¹ý80, HP/SPÒ²»á´ó·ù¼õÉÙ, ÇëÎÊÄãÈ·¶¨Òª³ÉÎªÑø×ÓÂð?#
 ËùÓÐÒì³£×´Ì¬, ¶¼±»Çå³ýÁË#
 1·ÖÖÓÖ®ÄÚ, ÃâÒßËùÓÐÒì³£×´Ì¬#
 1·ÖÖÓÖ®ÄÚ, ×î´óÉúÃüÖµ½«´ó·ù¶ÈÌáÉý#
@@ -897,8 +897,8 @@ Game  Guard Éý¼¶, »òÊÇ²¡¶¾ºÍspyware³åÍ»µ¼ÖÂÊ§°Ü, ÇëÊ¹ÓÃ·À¶¾ÈíÌå/ spyware °Ñ²¡¶¾½
 10ÃëÖÓÖ®ÄÚ, ·ÀÓùÁ¦½«´ó·ùÌáÉý#
 1·ÖÖÓÖ®ÄÚ, ¹¥»÷Á¦½«´ó·ùÔö¼Ó#
 1·ÖÖÓÖ®ÄÚ, ÃüÖÐºÍ»Ø±Ü½«´ó·ù¶ÈµÄÌáÉý#
-ÁìÑø¹ýÒ»´ÎÐ¡º¢µÄ¸¸Ä¸, ²»ÄÜÔÙÁìÑøÆäËüÐ¡º¢ÁË#
-Á½Î»¸¸Ä¸¶¼ÒªµÈ¼¶³¬¹ý70¼¶ÒÔÉÏ, ²ÅÄÜÁìÑøÐ¡º¢#
+ÁìÑø¹ýÒ»¸öº¢×ÓµÄ¸¸Ä¸, ²»ÄÜÔÙÁìÑøÆäËüº¢×ÓÁË#
+¸¸Ä¸µÄµÈ¼¶¶¼Òª³¬¹ý70¼¶, ²ÅÄÜÁìÑøÐ¡º¢#
 [POINT] Ìú½³µÄÅÅÐÐ°ñµãÊýÉÏÉý%d·Ö, ËùÒÔµãÊý±ä³É%d·ÖÁË#
 [POINT] Á¶½ðÊõÊ¦µÄÅÅÐÐ°ñµãÊýÉÏÉý%d·Ö, ËùÒÔµãÊý±ä³É%d·ÖÁË#
 X#

@@ -3201,7 +3201,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.WE_MALE] = {
 		"WE_MALE";
-		SkillName = "只呵护你",
+		SkillName = "我愿守护你",
 		MaxLv = 1,
 		SpAmount = {1},
 		bSeperateLv = false,
@@ -3210,7 +3210,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.WE_FEMALE] = {
 		"WE_FEMALE";
-		SkillName = "只为你牺牲",
+		SkillName = "我愿为你牺牲",
 		MaxLv = 1,
 		SpAmount = {1},
 		bSeperateLv = false,
@@ -3219,7 +3219,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.WE_CALLPARTNER] = {
 		"WE_CALLPARTNER";
-		SkillName = "想念你",
+		SkillName = "我想你",
 		MaxLv = 1,
 		SpAmount = {1},
 		bSeperateLv = false,
@@ -3905,7 +3905,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.WE_BABY] = {
 		"WE_BABY";
-		SkillName = "爸妈我爱您",
+		SkillName = "爸爸, 妈妈, 我爱你们",
 		MaxLv = 1,
 		SpAmount = {10},
 		bSeperateLv = false,
@@ -3914,7 +3914,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.WE_CALLPARENT] = {
 		"WE_CALLPARENT";
-		SkillName = "爸妈我想念您",
+		SkillName = "爸爸, 妈妈, 我想你们",
 		MaxLv = 1,
 		SpAmount = {1},
 		bSeperateLv = false,
@@ -3923,7 +3923,7 @@ SKILL_INFO_LIST = {
 
 	[SKID.WE_CALLBABY] = {
 		"WE_CALLBABY";
-		SkillName = "宝贝请来这里",
+		SkillName = "宝贝快来这里",
 		MaxLv = 1,
 		SpAmount = {1},
 		bSeperateLv = false,
