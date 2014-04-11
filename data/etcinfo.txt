@@ -1,7 +1,15 @@
-//加载画面,数字为10以下的所有加载画面随机读取
-loadingscreen#
-10#
-//指令#地图名#效果
-//下雨:rain|下雪:snow|云雾:clouds|起雾:fog|烟火:pokjuk|樱花:sakura
-weather#prontera.rsw#snow#
-//file end
+//loadingscreen:过场画面读取设定
+//格式:loadingscreen#X# (X为数字,1,2,3,4,10,20...表示(0-数字)的所有过场画面随机读取)
+//文件路径:data\texture\蜡历牢磐其捞胶\
+//文件名:loadingXX.jpg (XX为数字,00,01,02,03...)
+loadingscreen#463#
+
+//event:加载活动GRF
+//格式:event#X# (X为数字,0,1 默认0,读取event.grf,若想读取其它的GRF文件, 则设为1)
+//event#1#
+
+//weather:具体地图的天气效果
+//格式:weather#地图名#效果
+//效果:下雨:rain|下雪:snow|云雾:clouds|起雾:fog|烟火:pokjuk|樱花:sakura
+//weather#prontera.rsw#snow#
+//file end

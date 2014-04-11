@@ -898,7 +898,7 @@ Game  Guard Éý¼¶, »òÊÇ²¡¶¾ºÍspyware³åÍ»µ¼ÖÂÊ§°Ü, ÇëÊ¹ÓÃ·À¶¾ÈíÌå/ spyware °Ñ²¡¶¾½
 1·ÖÖÓÖ®ÄÚ, ¹¥»÷Á¦½«´ó·ùÔö¼Ó#
 1·ÖÖÓÖ®ÄÚ, ÃüÖÐºÍ»Ø±Ü½«´ó·ù¶ÈµÄÌáÉý#
 ÁìÑø¹ýÒ»¸öº¢×ÓµÄ¸¸Ä¸, ²»ÄÜÔÙÁìÑøÆäËüº¢×ÓÁË#
-¸¸Ä¸µÄµÈ¼¶¶¼Òª³¬¹ý70¼¶, ²ÅÄÜÁìÑøÐ¡º¢#
+¸¸Ä¸µÄµÈ¼¶¶¼Òª³¬¹ý70¼¶, ²ÅÄÜÁìÑøº¢×Ó#
 [POINT] Ìú½³µÄÅÅÐÐ°ñµãÊýÉÏÉý%d·Ö, ËùÒÔµãÊý±ä³É%d·ÖÁË#
 [POINT] Á¶½ðÊõÊ¦µÄÅÅÐÐ°ñµãÊýÉÏÉý%d·Ö, ËùÒÔµãÊý±ä³É%d·ÖÁË#
 X#
